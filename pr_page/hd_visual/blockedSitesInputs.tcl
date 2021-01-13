@@ -1,0 +1,14 @@
+ set mysites [get_sites { \
+ DSP48E2_X1Y72 \
+ DSP48E2_X2Y72 \
+ DSP48E2_X3Y72 \
+ DSP48E2_X4Y72 \
+ DSP48E2_X6Y72 \
+ DSP48E2_X10Y0 \
+ DSP48E2_X11Y0 \
+ DSP48E2_X12Y0 \
+ DSP48E2_X13Y0 \
+ DSP48E2_X14Y0 \
+ DSP48E2_X15Y0 \
+}] 
+select_objects -add $mysites 

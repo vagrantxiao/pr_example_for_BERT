@@ -1,0 +1,5 @@
+read_checkpoint: 74 seconds
+opt: 7 seconds
+place: 131 seconds
+route: 117 seconds
+bit_gen: 67 seconds

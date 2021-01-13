@@ -1,4 +1,4 @@
 #!/bin/bash -e
-source /opt/Xilinx/SDx/2018.2/settings64.sh
+source $1
 vivado -mode batch -source syn_page_add.tcl
 

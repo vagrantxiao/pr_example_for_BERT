@@ -1,0 +1,1641 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jan 12 23:06:27 2021
+# Process ID: 12370
+# Current directory: /home/ylxiao/ws_201/ForBERT/pr_page
+# Command line: vivado -mode batch -source impl_page_mul.tcl
+# Log file: /home/ylxiao/ws_201/ForBERT/pr_page/vivado.log
+# Journal file: /home/ylxiao/ws_201/ForBERT/pr_page/vivado.jou
+#-----------------------------------------------------------
+source impl_page_mul.tcl
+# set logFileId [open ./runLogImpl_mul.log "w"]
+# set_param general.maxThreads 2 
+# set start_time [clock seconds]
+# open_checkpoint ../overlay/overlay.dcp
+Command: open_checkpoint ../overlay/overlay.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1179.324 ; gain = 0.000 ; free physical = 21582 ; free virtual = 28726
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-4422] SNAPPING_MODE is set so implementation will use the DERIVED_RANGES which may be different then the GRID_RANGES.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG' is LOCed to site 'BUFG_PS_X0Y48'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG' is LOCed to site 'BUFG_PS_X0Y49'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2231.113 ; gain = 0.000 ; free physical = 20557 ; free virtual = 27701
+Restored from archive | CPU: 0.880000 secs | Memory: 3.379036 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.85 ; elapsed = 00:00:00.89 . Memory (MB): peak = 2231.113 ; gain = 0.000 ; free physical = 20557 ; free virtual = 27701
+WARNING: [Constraints 18-4434] Global Clock Buffer 'floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG' is LOCed to site 'BUFG_PS_X0Y48'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+WARNING: [Constraints 18-4434] Global Clock Buffer 'floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG' is LOCed to site 'BUFG_PS_X0Y49'. Using a LOC constraint to assign the placement of a Global Clock Buffer can result in sub-optimal placement results in UltraScale.
+Resolution: Remove the LOC constraint and use the CLOCK_REGION constraint to assign a Global Clock Buffer to a CLOCK_REGION.
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.2 (64-bit) build 2258646
+open_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 2239.117 ; gain = 1059.793 ; free physical = 20558 ; free virtual = 27701
+# update_design -cell floorplan_static_i/leaf_empty_5/inst -black_box
+INFO: [Designutils 20-2277] Running 'update_design -black_box' on cell floorplan_static_i/leaf_empty_5/inst. The cell has HD.RECONFIGURABLE property set to true and it will be turned into a black-box cell after this command.
+# read_checkpoint -cell floorplan_static_i/leaf_empty_5/inst page_mul_netlist.dcp
+Command: read_checkpoint -cell floorplan_static_i/leaf_empty_5/inst page_mul_netlist.dcp
+INFO: [Netlist 29-17] Analyzing 128 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing XDC File [/home/ylxiao/ws_201/ForBERT/pr_page/page_mul_netlist/leaf_late.xdc] for cell 'floorplan_static_i/leaf_empty_5/inst'
+Finished Parsing XDC File [/home/ylxiao/ws_201/ForBERT/pr_page/page_mul_netlist/leaf_late.xdc] for cell 'floorplan_static_i/leaf_empty_5/inst'
+read_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 2605.016 ; gain = 344.898 ; free physical = 20189 ; free virtual = 27317
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "read_checkpoint: $total_seconds seconds"
+# set start_time [clock seconds]
+# opt_design 
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Attempting to get a license: PartialReconfiguration
+INFO: [Common 17-1540] The version limit for your license is '2020.08' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Feature available: PartialReconfiguration
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2650.027 ; gain = 37.008 ; free physical = 20177 ; free virtual = 27306
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 27929ba41
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.89 . Memory (MB): peak = 2747.027 ; gain = 96.000 ; free physical = 20147 ; free virtual = 27285
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 2c6c326f6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20156 ; free virtual = 27294
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 25d2089e7
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20156 ; free virtual = 27294
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 8 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 295d1a65c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20157 ; free virtual = 27295
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 435 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 295d1a65c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20158 ; free virtual = 27295
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 2a335d9f8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20155 ; free virtual = 27293
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 2a335d9f8
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20154 ; free virtual = 27292
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20154 ; free virtual = 27292
+Ending Logic Optimization Task | Checksum: 21c8ffdf8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20161 ; free virtual = 27296
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-232] Skipping BRAM gating because all BRAMs are in high frequency (i.e. period < 3.12 ns) clock domains.
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 71 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+Ending Power Optimization Task | Checksum: 21c8ffdf8
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20158 ; free virtual = 27293
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 21c8ffdf8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2747.027 ; gain = 0.000 ; free physical = 20158 ; free virtual = 27293
+INFO: [Common 17-83] Releasing license: Implementation
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2747.027 ; gain = 142.012 ; free physical = 20158 ; free virtual = 27293
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "opt: $total_seconds seconds"
+# write_checkpoint  -force  mul_opt.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2779.043 ; gain = 0.000 ; free physical = 20140 ; free virtual = 27291
+INFO: [Common 17-1381] The checkpoint '/home/ylxiao/ws_201/ForBERT/pr_page/mul_opt.dcp' has been generated.
+# set start_time [clock seconds]
+# if { [catch {place_design} errmsg] } {
+#   puts $logFileId "place: 99999 failed!"
+# }
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3215.434 ; gain = 0.000 ; free physical = 20117 ; free virtual = 27255
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 16e368665
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3215.434 ; gain = 0.000 ; free physical = 20117 ; free virtual = 27255
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3215.434 ; gain = 0.000 ; free physical = 20117 ; free virtual = 27255
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1ae07919a
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:55 . Memory (MB): peak = 3705.293 ; gain = 489.859 ; free physical = 19582 ; free virtual = 26730
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 25d7a8118
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:59 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19539 ; free virtual = 26676
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 25d7a8118
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:59 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19531 ; free virtual = 26675
+Phase 1 Placer Initialization | Checksum: 25d7a8118
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:59 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19531 ; free virtual = 26675
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 27d756e06
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:01:03 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19522 ; free virtual = 26659
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3706.297 ; gain = 0.000 ; free physical = 19481 ; free virtual = 26632
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+|  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 1d91065b4
+
+Time (s): cpu = 00:01:35 ; elapsed = 00:01:26 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19482 ; free virtual = 26634
+Phase 2 Global Placement | Checksum: 27076cd42
+
+Time (s): cpu = 00:01:37 ; elapsed = 00:01:28 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19484 ; free virtual = 26632
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 27076cd42
+
+Time (s): cpu = 00:01:37 ; elapsed = 00:01:28 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19484 ; free virtual = 26632
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1ae154d38
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:30 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19484 ; free virtual = 26631
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1b5759872
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:30 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19482 ; free virtual = 26630
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1b5759872
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:30 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19482 ; free virtual = 26630
+
+Phase 3.5 Small Shape Clustering
+Phase 3.5 Small Shape Clustering | Checksum: 199407002
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:34 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19496 ; free virtual = 26621
+
+Phase 3.6 DP Optimization
+Phase 3.6 DP Optimization | Checksum: 18c15913b
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:41 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19492 ; free virtual = 26617
+
+Phase 3.7 Flow Legalize Slice Clusters
+Phase 3.7 Flow Legalize Slice Clusters | Checksum: 24e82309f
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:42 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19485 ; free virtual = 26619
+
+Phase 3.8 Slice Area Swap
+Phase 3.8 Slice Area Swap | Checksum: 1c3be80d5
+
+Time (s): cpu = 00:01:53 ; elapsed = 00:01:43 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19464 ; free virtual = 26597
+
+Phase 3.9 Commit Slice Clusters
+Phase 3.9 Commit Slice Clusters | Checksum: 15a67a1f9
+
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:44 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19473 ; free virtual = 26606
+
+Phase 3.10 Re-assign LUT pins
+Phase 3.10 Re-assign LUT pins | Checksum: 204c9eb2c
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:44 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19472 ; free virtual = 26606
+
+Phase 3.11 Pipeline Register Optimization
+Phase 3.11 Pipeline Register Optimization | Checksum: 204c9eb2c
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:01:44 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19475 ; free virtual = 26608
+
+Phase 3.12 Fast Optimization
+Phase 3.12 Fast Optimization | Checksum: 204c9eb2c
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:45 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19468 ; free virtual = 26606
+Phase 3 Detail Placement | Checksum: 204c9eb2c
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:01:45 . Memory (MB): peak = 3706.297 ; gain = 490.863 ; free physical = 19468 ; free virtual = 26606
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1cdbbace8
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-31] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1cdbbace8
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:48 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19467 ; free virtual = 26601
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.519. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 20d5a1bfc
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:48 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19468 ; free virtual = 26602
+Phase 4.1 Post Commit Optimization | Checksum: 20d5a1bfc
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:48 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19468 ; free virtual = 26602
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 20d5a1bfc
+
+Time (s): cpu = 00:02:01 ; elapsed = 00:01:48 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19480 ; free virtual = 26614
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 27403fa0f
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:02:01 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19440 ; free virtual = 26575
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1bc895832
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:02:01 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19440 ; free virtual = 26575
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1bc895832
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:02:01 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19440 ; free virtual = 26575
+Ending Placer Task | Checksum: 15d05145f
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:02:01 . Memory (MB): peak = 3707.301 ; gain = 491.867 ; free physical = 19485 ; free virtual = 26620
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:27 ; elapsed = 00:02:11 . Memory (MB): peak = 3707.301 ; gain = 928.258 ; free physical = 19485 ; free virtual = 26620
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "place: $total_seconds seconds"
+# write_checkpoint  -force  mul_placed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.63 . Memory (MB): peak = 3707.301 ; gain = 0.000 ; free physical = 19444 ; free virtual = 26617
+INFO: [Common 17-1381] The checkpoint '/home/ylxiao/ws_201/ForBERT/pr_page/mul_placed.dcp' has been generated.
+# set start_time [clock seconds]
+# if { [catch {route_design  } errmsg] } {
+#   puts $logFileId "routing: 99999 failed!"
+# }
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: dd074dcd ConstDB: 0 ShapeSum: 1953e87f RouteDB: 66a9de13
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 13b931e03
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:59 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18993 ; free virtual = 26203
+Post Restoration Checksum: NetGraph: a4de04a0 NumContArr: d27e2c0c Constraints: 845eabe6 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 1fbbadc92
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:01:00 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18989 ; free virtual = 26206
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 1fbbadc92
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:01:00 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18957 ; free virtual = 26175
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 1fbbadc92
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:01:01 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18955 ; free virtual = 26175
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 11761992c
+
+Time (s): cpu = 00:01:16 ; elapsed = 00:01:04 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18850 ; free virtual = 26072
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 193478af6
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:05 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18839 ; free virtual = 26078
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.660  | TNS=0.000  | WHS=-0.014 | THS=-0.228 |
+
+
+Phase 2.6 Update Timing for Bus Skew
+
+Phase 2.6.1 Update Timing
+Phase 2.6.1 Update Timing | Checksum: 1dbb23906
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:08 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18854 ; free virtual = 26088
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.660  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.6 Update Timing for Bus Skew | Checksum: 18f540976
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:08 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18853 ; free virtual = 26087
+Phase 2 Router Initialization | Checksum: 1d00ac79f
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:08 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18853 ; free virtual = 26087
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 2b3f47b42
+
+Time (s): cpu = 00:01:35 ; elapsed = 00:01:15 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18862 ; free virtual = 26087
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1182
+ Number of Nodes with overlaps = 112
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.701  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 4.1 Global Iteration 0 | Checksum: 2b4c4061f
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:22 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18871 ; free virtual = 26082
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 224d456b2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:22 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18870 ; free virtual = 26080
+Phase 4 Rip-up And Reroute | Checksum: 224d456b2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:22 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18870 ; free virtual = 26080
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 224d456b2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:23 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18870 ; free virtual = 26080
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 224d456b2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:23 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18869 ; free virtual = 26079
+Phase 5 Delay and Skew Optimization | Checksum: 224d456b2
+
+Time (s): cpu = 00:01:47 ; elapsed = 00:01:23 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18871 ; free virtual = 26081
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2c77c083e
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:24 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18873 ; free virtual = 26083
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.701  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 30cee0dc7
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:24 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18873 ; free virtual = 26084
+Phase 6 Post Hold Fix | Checksum: 30cee0dc7
+
+Time (s): cpu = 00:01:49 ; elapsed = 00:01:24 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18877 ; free virtual = 26087
+
+Phase 7 Leaf Clock Prog Delay Opt
+Phase 7 Leaf Clock Prog Delay Opt | Checksum: 24be31d4a
+
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:25 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18878 ; free virtual = 26088
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.40122 %
+  Global Horizontal Routing Utilization  = 0.43295 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 2ae537e37
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:25 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18879 ; free virtual = 26089
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 2ae537e37
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:25 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18878 ; free virtual = 26088
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 2ae537e37
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:26 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18863 ; free virtual = 26086
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.701  | TNS=0.000  | WHS=0.010  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 2ae537e37
+
+Time (s): cpu = 00:01:52 ; elapsed = 00:01:26 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18870 ; free virtual = 26092
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:08 ; elapsed = 00:01:42 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18917 ; free virtual = 26144
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:26 ; elapsed = 00:01:58 . Memory (MB): peak = 4039.996 ; gain = 332.695 ; free physical = 18917 ; free virtual = 26144
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "route: $total_seconds seconds"
+# write_checkpoint -force   mul_routed.dcp
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.72 . Memory (MB): peak = 4039.996 ; gain = 0.000 ; free physical = 18872 ; free virtual = 26141
+INFO: [Common 17-1381] The checkpoint '/home/ylxiao/ws_201/ForBERT/pr_page/mul_routed.dcp' has been generated.
+# set_param bitstream.enablePR 2341
+# set start_time [clock seconds]
+# write_bitstream  -force  -cell floorplan_static_i/leaf_empty_5/inst mul.bit
+Command: write_bitstream -force -cell floorplan_static_i/leaf_empty_5/inst mul.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-1540] The version limit for your license is '2019.01' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC FLBA-1] Area group tile alignment: p_4 area group IOB_X0Y0:IOB_X0Y11 doesn't align with tile
+WARNING: [DRC FLBA-1] Area group tile alignment: p_4 area group IOB_X0Y26:IOB_X0Y37 doesn't align with tile
+WARNING: [DRC FLBA-1] Area group tile alignment: p_7 area group IOB_X0Y156:IOB_X0Y167 doesn't align with tile
+WARNING: [DRC FLBA-1] Area group tile alignment: p_7 area group IOB_X0Y182:IOB_X0Y193 doesn't align with tile
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y36:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y37:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y40:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y41:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y42:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y43:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y44:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y45:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y62:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y63:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y80:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y81:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y82:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y84:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-61] SLICEM_5lutO5_C5: Dangling output pin O5 on site SLICE_X37Y85:C5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y37:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y41:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y42:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y43:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y44:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y45:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y80:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y81:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y82:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y84:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-62] SLICEM_5lutO5_B5: Dangling output pin O5 on site SLICE_X37Y85:B5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y41:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y42:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y43:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y44:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y45:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y80:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y81:A5LUT. For this programming the O5 output pin should have a signal.
+WARNING: [DRC PDRC-63] SLICEM_5lutO5_A5: Dangling output pin O5 on site SLICE_X37Y82:A5LUT. For this programming the O5 output pin should have a signal.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 38 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Partition "p_10" Reconfigurable Module "floorplan_static_i/leaf_empty_10/inst"
+Partition "p_11" Reconfigurable Module "floorplan_static_i/leaf_empty_11/inst"
+Partition "p_12" Reconfigurable Module "floorplan_static_i/leaf_empty_12/inst"
+Partition "p_13" Reconfigurable Module "floorplan_static_i/leaf_empty_13/inst"
+Partition "p_14" Reconfigurable Module "floorplan_static_i/leaf_empty_14/inst"
+Partition "p_15" Reconfigurable Module "floorplan_static_i/leaf_empty_15/inst"
+Partition "p_18" Reconfigurable Module "floorplan_static_i/leaf_empty_18/inst"
+Partition "p_16" Reconfigurable Module "floorplan_static_i/leaf_empty_16/inst"
+Partition "p_17" Reconfigurable Module "floorplan_static_i/leaf_empty_17/inst"
+Partition "p_3" Reconfigurable Module "floorplan_static_i/leaf_empty_3/inst"
+Partition "p_4" Reconfigurable Module "floorplan_static_i/leaf_empty_4/inst"
+Partition "p_5" Reconfigurable Module "floorplan_static_i/leaf_empty_5/inst"
+Partition "p_6" Reconfigurable Module "floorplan_static_i/leaf_empty_6/inst"
+Partition "p_7" Reconfigurable Module "floorplan_static_i/leaf_empty_7/inst"
+Partition "p_8" Reconfigurable Module "floorplan_static_i/leaf_empty_8/inst"
+Partition "p_9" Reconfigurable Module "floorplan_static_i/leaf_empty_9/inst"
+Partition "pblock_bft_00" Reconfigurable Module "floorplan_static_i/axi_leaf"
+INFO: [Vivado 12-4077] No full design bitstream will be created with the use of the -cell option.
+Process Partition "p_5"
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Partial bitstream contains 14158400 bits.
+Writing bitstream ./mul.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-83] Releasing license: Implementation
+13 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:10 ; elapsed = 00:01:07 . Memory (MB): peak = 4509.996 ; gain = 470.000 ; free physical = 18781 ; free virtual = 26126
+# set end_time [clock seconds]
+# set total_seconds [expr $end_time - $start_time]
+# puts $logFileId "bit_gen: $total_seconds seconds"
+# report_utilization -pblocks p_5 > impl_utilization_mul.rpt
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Tue Jan 12 23:13:20 2021
+| Host         : ylxiao-OptiPlex-7050 running 64-bit Ubuntu 18.04.2 LTS
+| Command      : report_utilization -pblocks p_5
+| Design       : floorplan_static_wrapper
+| Device       : xczu9egffvb1156-2
+| Design State : Routed
+------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Pblock Summary
+2. Clock Region Statistics
+3. CLB Logic
+3.1 Summary of Registers by Type
+4. CLB Logic Distribution
+5. BLOCKRAM
+6. ARITHMETIC
+7. I/O
+8. CLOCK
+9. ADVANCED
+10. CONFIGURATION
+11. Primitives
+12. Black Boxes
+13. Instantiated Netlists
+
+1. Pblock Summary
+-----------------
+
++-------+--------+-------+-------------------+-----------------+----------------+
+| Index | Parent | Child | EXCLUDE_PLACEMENT | CONTAIN_ROUTING | SLR(s) Covered |
++-------+--------+-------+-------------------+-----------------+----------------+
+| 1     |    p_5 |       |                 1 |               1 |           SLR0 |
++-------+--------+-------+-------------------+-----------------+----------------+
+
+
+2. Clock Region Statistics
+--------------------------
+
++-------------+--------------------+
+| CLOCKREGION | Pblock Sites in CR |
++-------------+--------------------+
+| X2Y1        |             48.13% |
+| X3Y1        |             51.87% |
++-------------+--------------------+
+
+
+3. CLB Logic
+------------
+
++----------------------------+--------+-------+--------------+------+-------+-----------+-------+
+|          Site Type         | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++----------------------------+--------+-------+--------------+------+-------+-----------+-------+
+| CLB LUTs                   |   3033 |     0 |            0 | 3033 |     0 |     19680 | 15.41 |
+|   LUT as Logic             |   2921 |     0 |            0 | 2921 |     0 |     19680 | 14.84 |
+|   LUT as Memory            |    112 |     0 |            0 |  112 |     0 |     10080 |  1.11 |
+|     LUT as Distributed RAM |    112 |     0 |            0 |  112 |     0 |           |       |
+|     LUT as Shift Register  |      0 |     0 |            0 |    0 |     0 |           |       |
+| CLB Registers              |   2121 |     0 |            0 | 2121 |     0 |     39360 |  5.39 |
+|   Register as Flip Flop    |   2121 |     0 |            0 | 2121 |     0 |     39360 |  5.39 |
+|   Register as Latch        |      0 |     0 |            0 |    0 |     0 |     39360 |  0.00 |
+| CARRY8                     |     80 |     0 |            0 |   80 |     0 |      2460 |  3.25 |
+| F7 Muxes                   |     30 |     0 |            0 |   30 |     0 |      9840 |  0.30 |
+| F8 Muxes                   |      0 |     0 |            0 |    0 |     0 |      4920 |  0.00 |
+| F9 Muxes                   |      0 |     0 |            0 |    0 |     0 |      2460 |  0.00 |
++----------------------------+--------+-------+--------------+------+-------+-----------+-------+
+
+
+3.1 Summary of Registers by Type
+--------------------------------
+
++-------+--------------+-------------+--------------+
+| Total | Clock Enable | Synchronous | Asynchronous |
++-------+--------------+-------------+--------------+
+| 0     |            _ |           - |            - |
+| 0     |            _ |           - |          Set |
+| 0     |            _ |           - |        Reset |
+| 0     |            _ |         Set |            - |
+| 0     |            _ |       Reset |            - |
+| 0     |          Yes |           - |            - |
+| 0     |          Yes |           - |          Set |
+| 15    |          Yes |           - |        Reset |
+| 138   |          Yes |         Set |            - |
+| 1968  |          Yes |       Reset |            - |
++-------+--------------+-------------+--------------+
+
+
+4. CLB Logic Distribution
+-------------------------
+
++-------------------------------------------+--------+-------+--------------+------+-------+-----------+-------+
+|                 Site Type                 | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++-------------------------------------------+--------+-------+--------------+------+-------+-----------+-------+
+| CLB                                       |    548 |     0 |            0 |  548 |     0 |      2460 | 22.28 |
+|   CLBL                                    |    263 |     0 |            0 |  263 |     0 |           |       |
+|   CLBM                                    |    285 |     0 |            0 |  285 |     0 |           |       |
+| LUT as Logic                              |   2921 |     0 |            0 | 2921 |     0 |     19680 | 14.84 |
+|   using O5 output only                    |     89 |     0 |            0 |   89 |       |           |       |
+|   using O6 output only                    |   2351 |     0 |            0 | 2351 |       |           |       |
+|   using O5 and O6                         |    481 |     0 |            0 |  481 |       |           |       |
+| LUT as Memory                             |    112 |     0 |            0 |  112 |     0 |     10080 |  1.11 |
+|   LUT as Distributed RAM                  |    112 |     0 |            0 |  112 |     0 |           |       |
+|     using O5 output only                  |      0 |     0 |            0 |    0 |       |           |       |
+|     using O6 output only                  |     80 |     0 |            0 |   80 |       |           |       |
+|     using O5 and O6                       |     32 |     0 |            0 |   32 |       |           |       |
+|   LUT as Shift Register                   |      0 |     0 |            0 |    0 |     0 |           |       |
+| LUT Flip Flop Pairs                       |   1314 |     0 |            0 | 1314 |     0 |     19680 |  6.68 |
+|   fully used LUT-FF pairs                 |    223 |     0 |            0 |  223 |       |           |       |
+|   LUT-FF pairs with one unused LUT output |   1081 |     0 |            0 | 1081 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  |    975 |     0 |            0 |  975 |       |           |       |
+| Unique Control Sets                       |     87 |     0 |            0 |   87 |       |           |       |
++-------------------------------------------+--------+-------+--------------+------+-------+-----------+-------+
+* Note: Review the Control Sets Report for more information regarding control sets.
+
+
+5. BLOCKRAM
+-----------
+
++-------------------+--------+-------+--------------+------+-------+-----------+-------+
+|     Site Type     | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++-------------------+--------+-------+--------------+------+-------+-----------+-------+
+| Block RAM Tile    |   69.5 |     0 |            0 | 69.5 |     0 |        72 | 96.53 |
+|   RAMB36/FIFO*    |     68 |     0 |            0 |   68 |     0 |        72 | 94.44 |
+|     RAMB36E2 only |     68 |     0 |            0 |   68 |       |           |       |
+|   RAMB18          |      3 |     0 |            0 |    3 |     0 |       144 |  2.08 |
+|     RAMB18E2 only |      3 |     0 |            0 |    3 |       |           |       |
++-------------------+--------+-------+--------------+------+-------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E2 or one FIFO18E2. However, if a FIFO18E2 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E2
+
+
+6. ARITHMETIC
+-------------
+
++-----------+--------+-------+--------------+------+-------+-----------+-------+
+| Site Type | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++-----------+--------+-------+--------------+------+-------+-----------+-------+
+| DSPs      |      0 |     0 |            0 |    0 |     0 |       144 |  0.00 |
++-----------+--------+-------+--------------+------+-------+-----------+-------+
+
+
+7. I/O
+------
+
++------------------+--------+-------+--------------+------+-------+-----------+-------+
+|     Site Type    | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++------------------+--------+-------+--------------+------+-------+-----------+-------+
+| Bonded IOB       |      0 |     0 |            0 |    0 |     0 |        52 |  0.00 |
+| HPIOB_M          |      0 |     0 |            0 |    0 |     0 |        24 |  0.00 |
+| HPIOB_S          |      0 |     0 |            0 |    0 |     0 |        24 |  0.00 |
+| HPIOB_SNGL       |      0 |     0 |            0 |    0 |     0 |         4 |  0.00 |
+| HPIOBDIFFINBUF   |      0 |     0 |            0 |    0 |     0 |        24 |  0.00 |
+| HPIOBDIFFOUTBUF  |      0 |     0 |            0 |    0 |     0 |        24 |  0.00 |
+| BITSLICE_CONTROL |      0 |     0 |            0 |    0 |     0 |         8 |  0.00 |
+| BITSLICE_RX_TX   |      0 |     0 |            0 |    0 |     0 |        52 |  0.00 |
+| BITSLICE_TX      |      0 |     0 |            0 |    0 |     0 |         8 |  0.00 |
+| RIU_OR           |      0 |     0 |            0 |    0 |     0 |         4 |  0.00 |
++------------------+--------+-------+--------------+------+-------+-----------+-------+
+
+
+8. CLOCK
+--------
+
++----------------------+--------+-------+--------------+------+-------+-----------+-------+
+|       Site Type      | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++----------------------+--------+-------+--------------+------+-------+-----------+-------+
+| GLOBAL CLOCK BUFFERs |      0 |     0 |            0 |    0 |     0 |        36 |  0.00 |
+|   BUFGCE             |      0 |     0 |            0 |    0 |     0 |        24 |  0.00 |
+|   BUFGCE_DIV         |      0 |     0 |            0 |    0 |     0 |         4 |  0.00 |
+|   BUFGCTRL*          |      0 |     0 |            0 |    0 |     0 |         8 |  0.00 |
+| PLL                  |      0 |     0 |            0 |    0 |     0 |         2 |  0.00 |
+| MMCM                 |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
++----------------------+--------+-------+--------------+------+-------+-----------+-------+
+* Note: Each used BUFGCTRL counts as two global buffer resources. This table does not include global clocking resources, only buffer cell usage. See the Clock Utilization Report (report_clock_utilization) for detailed accounting of global clocking resource availability.
+
+
+9. ADVANCED
+-----------
+
++-----------+--------+-------+--------------+------+-------+-----------+-------+
+| Site Type | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++-----------+--------+-------+--------------+------+-------+-----------+-------+
+
+
+10. CONFIGURATION
+-----------------
+
++-------------+--------+-------+--------------+------+-------+-----------+-------+
+|  Site Type  | Parent | Child | Non-Assigned | Used | Fixed | Available | Util% |
++-------------+--------+-------+--------------+------+-------+-----------+-------+
+| BSCANE2     |      0 |     0 |            0 |    0 |     0 |         4 |  0.00 |
+| DNA_PORTE2  |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
+| EFUSE_USR   |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
+| FRAME_ECCE4 |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
+| ICAPE3      |      0 |     0 |            0 |    0 |     0 |         2 |  0.00 |
+| MASTER_JTAG |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
+| STARTUPE3   |      0 |     0 |            0 |    0 |     0 |         1 |  0.00 |
++-------------+--------+-------+--------------+------+-------+-----------+-------+
+
+
+11. Primitives
+--------------
+
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| FDRE     | 1968 |            Register |
+| LUT6     | 1206 |                 CLB |
+| LUT4     |  603 |                 CLB |
+| LUT5     |  469 |                 CLB |
+| LUT2     |  463 |                 CLB |
+| LUT3     |  453 |                 CLB |
+| LUT1     |  208 |                 CLB |
+| FDSE     |  138 |            Register |
+| RAMD64E  |   80 |                 CLB |
+| CARRY8   |   80 |                 CLB |
+| RAMB36E2 |   68 |           Block Ram |
+| RAMD32   |   56 |                 CLB |
+| MUXF7    |   30 |                 CLB |
+| FDCE     |   15 |            Register |
+| RAMS32   |    8 |                 CLB |
+| RAMB18E2 |    3 |           Block Ram |
++----------+------+---------------------+
+
+
+12. Black Boxes
+---------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+13. Instantiated Netlists
+-------------------------
+
++--------------------------------------+------+
+|               Ref Name               | Used |
++--------------------------------------+------+
+| leaf_bb_bb                           |   15 |
+| leaf                                 |    1 |
+| floorplan_static_zynq_ultra_ps_e_0_0 |    1 |
+| floorplan_static_rst_ps8_0_99M7_0    |    1 |
+| floorplan_static_rst_ps8_0_99M6_0    |    1 |
+| floorplan_static_rst_ps8_0_99M5_0    |    1 |
+| floorplan_static_rst_ps8_0_99M4_0    |    1 |
+| floorplan_static_rst_ps8_0_99M3_0    |    1 |
+| floorplan_static_rst_ps8_0_99M2_0    |    1 |
+| floorplan_static_rst_ps8_0_99M1_0    |    1 |
+| floorplan_static_rst_ps8_0_299M_0    |    1 |
+| floorplan_static_leaf_empty_9_0      |    1 |
+| floorplan_static_leaf_empty_8_0      |    1 |
+| floorplan_static_leaf_empty_7_0      |    1 |
+| floorplan_static_leaf_empty_6_0      |    1 |
+| floorplan_static_leaf_empty_5_0      |    1 |
+| floorplan_static_leaf_empty_4_0      |    1 |
+| floorplan_static_leaf_empty_3_0      |    1 |
+| floorplan_static_leaf_empty_17_0     |    1 |
+| floorplan_static_leaf_empty_16_0     |    1 |
+| floorplan_static_leaf_empty_15_1     |    1 |
+| floorplan_static_leaf_empty_15_0     |    1 |
+| floorplan_static_leaf_empty_14_0     |    1 |
+| floorplan_static_leaf_empty_13_0     |    1 |
+| floorplan_static_leaf_empty_12_0     |    1 |
+| floorplan_static_leaf_empty_11_0     |    1 |
+| floorplan_static_leaf_empty_10_0     |    1 |
++--------------------------------------+------+
+
+
+report_utilization: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4509.996 ; gain = 0.000 ; free physical = 18788 ; free virtual = 26133
+# report_timing_summary > timing_mul.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date              : Tue Jan 12 23:13:21 2021
+| Host              : ylxiao-OptiPlex-7050 running 64-bit Ubuntu 18.04.2 LTS
+| Command           : report_timing_summary
+| Design            : floorplan_static_wrapper
+| Device            : xczu9eg-ffvb1156
+| Speed File        : -2  PRODUCTION 1.20 05-21-2018
+| Temperature Grade : E
+-----------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  false
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 0 input ports with no input delay specified.
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 0 ports with no output delay specified.
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      0.732        0.000                      0                 7966        0.010        0.000                      0                 7936        1.164        0.000                       0                  2715  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock     Waveform(ns)         Period(ns)      Frequency(MHz)
+-----     ------------         ----------      --------------
+clk_pl_0  {0.000 2.667}        5.333           187.512         
+clk_pl_1  {0.000 2.667}        5.333           187.512         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+clk_pl_0            0.732        0.000                      0                 5706        0.010        0.000                      0                 5706        1.164        0.000                       0                  1794  
+clk_pl_1            2.064        0.000                      0                 2224        0.016        0.000                      0                 2224        2.125        0.000                       0                   921  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+clk_pl_1      clk_pl_0          999.502        0.000                      0                   15                                                                        
+clk_pl_0      clk_pl_1          999.610        0.000                      0                   15                                                                        
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group         From Clock         To Clock               WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------         ----------         --------               -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+**async_default**  clk_pl_1           clk_pl_1                 3.247        0.000                      0                    6        0.846        0.000                      0                    6  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack        0.732ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.010ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        1.164ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.732ns  (required time - arrival time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/ram_reg_bram_7/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E2 clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q_reg[16]/CE
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            5.333ns  (clk_pl_0 rise@5.333ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        4.072ns  (logic 1.663ns (40.840%)  route 2.409ns (59.160%))
+  Logic Levels:           7  (LUT2=1 LUT3=3 LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.356ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.803ns = ( 7.136 - 5.333 ) 
+    Source Clock Delay      (SCD):    2.328ns
+    Clock Pessimism Removal (CPR):    0.169ns
+  Clock Uncertainty:      0.112ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.213ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      2.165ns (routing 0.393ns, distribution 1.772ns)
+  Clock Net Delay (Destination): 1.673ns (routing 0.352ns, distribution 1.321ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.135     0.135    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y48        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.028     0.163 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=1794, routed)        2.165     2.328    boundary       floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/clk_user
+    RAMB36_X12Y15        RAMB36E2                                     r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/ram_reg_bram_7/CLKBWRCLK
+  -------------------------------------------------------------------    ----------------------------------
+    RAMB36_X12Y15        RAMB36E2 (Prop_RAMB36E2_RAMB36_CLKBWRCLK_DOUTBDOUT[0])
+                                                      1.011     3.339 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/ram_reg_bram_7/DOUTBDOUT[0]
+                         net (fo=2, routed)           0.868     4.207    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/mem_16bit_buffer_reg[11][0]
+    SLICE_X76Y92         LUT3 (Prop_B5LUT_SLICEM_I2_O)
+                                                      0.143     4.350 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/mem_16bit_buffer[11]_i_2/O
+                         net (fo=2, routed)           0.178     4.528    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/do[3]
+    SLICE_X75Y92         LUT6 (Prop_F6LUT_SLICEL_I2_O)
+                                                      0.035     4.563 f  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/picorv_mem_inst/ram_inst_3/mem_rdata_q[11]_i_5/O
+                         net (fo=1, routed)           0.147     4.710    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q_reg[27]_0
+    SLICE_X74Y92         LUT6 (Prop_B6LUT_SLICEM_I3_O)
+                                                      0.037     4.747 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[11]_i_2/O
+                         net (fo=20, routed)          0.330     5.077    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[11]_i_2_n_0
+    SLICE_X75Y85         LUT5 (Prop_B5LUT_SLICEL_I2_O)
+                                                      0.141     5.218 f  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[24]_i_14/O
+                         net (fo=10, routed)          0.175     5.393    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[24]_i_14_n_0
+    SLICE_X76Y85         LUT2 (Prop_B6LUT_SLICEM_I1_O)
+                                                      0.052     5.445 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[26]_i_10/O
+                         net (fo=3, routed)           0.236     5.681    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[26]_i_10_n_0
+    SLICE_X75Y90         LUT3 (Prop_D5LUT_SLICEL_I0_O)
+                                                      0.096     5.777 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[19]_i_3/O
+                         net (fo=7, routed)           0.284     6.061    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[19]_i_3_n_0
+    SLICE_X73Y88         LUT3 (Prop_E6LUT_SLICEM_I1_O)
+                                                      0.148     6.209 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[19]_i_1/O
+                         net (fo=5, routed)           0.191     6.400    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q[19]_i_1_n_0
+    SLICE_X73Y88         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q_reg[16]/CE
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      5.333     5.333 r                 
+    PS8_X0Y0             PS8                          0.000     5.333 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.105     5.438    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y48        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.025     5.463 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=1794, routed)        1.673     7.136    boundary       floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/clk_user
+    SLICE_X73Y88         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q_reg[16]/C
+                         clock pessimism              0.169     7.305                     
+                         clock uncertainty           -0.112     7.193                     
+    SLICE_X73Y88         FDRE (Setup_EFF_SLICEM_C_CE)
+                                                     -0.061     7.132    reconfigurable   floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/mem_rdata_q_reg[16]
+  -------------------------------------------------------------------
+                         required time                          7.132                     
+                         arrival time                          -6.400                     
+  -------------------------------------------------------------------
+                         slack                                  0.732                     
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.010ns  (arrival time - required time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[28]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[27]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_0
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_0 rise@0.000ns - clk_pl_0 rise@0.000ns)
+  Data Path Delay:        0.161ns  (logic 0.060ns (37.267%)  route 0.101ns (62.733%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.089ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.134ns
+    Source Clock Delay      (SCD):    1.871ns
+    Clock Pessimism Removal (CPR):    0.174ns
+  Clock Net Delay (Source):      1.741ns (routing 0.352ns, distribution 1.389ns)
+  Clock Net Delay (Destination): 1.971ns (routing 0.393ns, distribution 1.578ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.105     0.105    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y48        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.025     0.130 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=1794, routed)        1.741     1.871    boundary       floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/clk_user
+    SLICE_X80Y80         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[28]/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X80Y80         FDRE (Prop_BFF2_SLICEL_C_Q)
+                                                      0.060     1.931 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[28]/Q
+                         net (fo=3, routed)           0.101     2.032    reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg_n_0_[28]
+    SLICE_X81Y80         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[27]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_0 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0]
+                         net (fo=1, routed)           0.135     0.135    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]
+    BUFG_PS_X0Y48        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.028     0.163 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_0.PL_CLK_0_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=1794, routed)        1.971     2.134    boundary       floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/clk_user
+    SLICE_X81Y80         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[27]/C
+                         clock pessimism             -0.174     1.960                     
+    SLICE_X81Y80         FDRE (Hold_EFF2_SLICEL_C_D)
+                                                      0.062     2.022    reconfigurable   floorplan_static_i/leaf_empty_5/inst/picorv32_wrapper_inst/uut/pcpi_div/quotient_msk_reg[27]
+  -------------------------------------------------------------------
+                         required time                         -2.022                     
+                         arrival time                           2.032                     
+  -------------------------------------------------------------------
+                         slack                                  0.010                     
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_0
+Waveform(ns):       { 0.000 2.667 }
+Period(ns):         5.333
+Sources:            { floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[0] }
+
+Check Type        Corner  Lib Pin          Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     PS8/MAXIGP0ACLK  n/a            3.003         5.333       2.330      PS8_X0Y0  floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+Low Pulse Width   Slow    PS8/MAXIGP0ACLK  n/a            1.502         2.667       1.164      PS8_X0Y0  floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+High Pulse Width  Slow    PS8/MAXIGP0ACLK  n/a            1.502         2.667       1.165      PS8_X0Y0  floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/MAXIGP0ACLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_1
+  To Clock:  clk_pl_1
+
+Setup :            0  Failing Endpoints,  Worst Slack        2.064ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.016ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        2.125ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             2.064ns  (required time - arrival time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/xpm_memory_tdpram_inst_0/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg_bram_0/CLKBWRCLK
+                            (rising edge-triggered cell RAMB36E2 clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[2]
+                            (rising edge-triggered cell RAMB18E2 clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_1
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            5.333ns  (clk_pl_1 rise@5.333ns - clk_pl_1 rise@0.000ns)
+  Data Path Delay:        2.612ns  (logic 1.155ns (44.219%)  route 1.457ns (55.781%))
+  Logic Levels:           2  (LUT4=2)
+  Clock Path Skew:        -0.151ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.836ns = ( 7.169 - 5.333 ) 
+    Source Clock Delay      (SCD):    2.152ns
+    Clock Pessimism Removal (CPR):    0.165ns
+  Clock Uncertainty:      0.112ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.213ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      1.989ns (routing 0.397ns, distribution 1.592ns)
+  Clock Net Delay (Destination): 1.704ns (routing 0.357ns, distribution 1.347ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.135     0.135    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.028     0.163 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.989     2.152    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/xpm_memory_tdpram_inst_0/xpm_memory_base_inst/clka
+    RAMB36_X7Y22         RAMB36E2                                     r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/xpm_memory_tdpram_inst_0/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg_bram_0/CLKBWRCLK
+  -------------------------------------------------------------------    ----------------------------------
+    RAMB36_X7Y22         RAMB36E2 (Prop_RAMB36E2_RAMB36_CLKBWRCLK_DOUTPBDOUTP[0])
+                                                      0.882     3.034 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/xpm_memory_tdpram_inst_0/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg_bram_0/DOUTPBDOUTP[0]
+                         net (fo=4, routed)           0.431     3.465    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/rbi/doutb[32]
+    SLICE_X60Y104        LUT4 (Prop_G6LUT_SLICEL_I0_O)
+                                                      0.123     3.588 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/rbi/gnuram_async_fifo.xpm_fifo_base_inst_i_1__0/O
+                         net (fo=7, routed)           0.594     4.182    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/wr_en
+    SLICE_X66Y101        LUT4 (Prop_H6LUT_SLICEL_I0_O)
+                                                      0.150     4.332 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_sdpram.xpm_memory_base_inst_i_1/O
+                         net (fo=18, routed)          0.432     4.764    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/ena
+    RAMB18_X8Y39         RAMB18E2                                     r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/WEBWE[2]
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_1 rise edge)
+                                                      5.333     5.333 r                 
+    PS8_X0Y0             PS8                          0.000     5.333 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.107     5.440    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.025     5.465 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.704     7.169    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/clka
+    RAMB18_X8Y39         RAMB18E2                                     r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKBWRCLK
+                         clock pessimism              0.165     7.334                     
+                         clock uncertainty           -0.112     7.222                     
+    RAMB18_X8Y39         RAMB18E2 (Setup_RAMB18E2_U_RAMB181_CLKBWRCLK_WEBWE[2])
+                                                     -0.394     6.828    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[1].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg
+  -------------------------------------------------------------------
+                         required time                          6.828                     
+                         arrival time                          -4.764                     
+  -------------------------------------------------------------------
+                         slack                                  2.064                     
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.016ns  (arrival time - required time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ExCtrl/configure_out_reg[6]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/out_port_reg[0].freespace_reg_reg[0][1]/D
+                            (rising edge-triggered cell FDSE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_1
+  Path Type:              Hold (Min at Slow Process Corner)
+  Requirement:            0.000ns  (clk_pl_1 rise@0.000ns - clk_pl_1 rise@0.000ns)
+  Data Path Delay:        0.137ns  (logic 0.058ns (42.336%)  route 0.079ns (57.664%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.059ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.067ns
+    Source Clock Delay      (SCD):    1.801ns
+    Clock Pessimism Removal (CPR):    0.207ns
+  Clock Net Delay (Source):      1.669ns (routing 0.357ns, distribution 1.312ns)
+  Clock Net Delay (Destination): 1.904ns (routing 0.397ns, distribution 1.507ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.107     0.107    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.025     0.132 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.669     1.801    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ExCtrl/clk_bft
+    SLICE_X62Y108        FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ExCtrl/configure_out_reg[6]/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X62Y108        FDRE (Prop_DFF_SLICEM_C_Q)
+                                                      0.058     1.859 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ExCtrl/configure_out_reg[6]/Q
+                         net (fo=1, routed)           0.079     1.938    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/configure_out_reg[27][1]
+    SLICE_X62Y109        FDSE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/out_port_reg[0].freespace_reg_reg[0][1]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.135     0.135    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.028     0.163 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.904     2.067    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/clk_bft
+    SLICE_X62Y109        FDSE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/out_port_reg[0].freespace_reg_reg[0][1]/C
+                         clock pessimism             -0.207     1.860                     
+    SLICE_X62Y109        FDSE (Hold_BFF2_SLICEM_C_D)
+                                                      0.062     1.922    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/ConCtrl/out_port_reg[0].freespace_reg_reg[0][1]
+  -------------------------------------------------------------------
+                         required time                         -1.922                     
+                         arrival time                           1.938                     
+  -------------------------------------------------------------------
+                         slack                                  0.016                     
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         clk_pl_1
+Waveform(ns):       { 0.000 2.667 }
+Period(ns):         5.333
+Sources:            { floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1] }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location      Pin
+Min Period        n/a     RAMB36E2/CLKARDCLK  n/a            1.569         5.333       3.764      RAMB36_X7Y19  floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/xpm_memory_tdpram_inst_0/xpm_memory_base_inst/gen_wr_b.gen_word_narrow.mem_reg_bram_0/CLKARDCLK
+Low Pulse Width   Slow    RAMB18E2/CLKBWRCLK  n/a            0.542         2.667       2.125      RAMB18_X8Y38  floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKBWRCLK
+High Pulse Width  Slow    RAMB18E2/CLKARDCLK  n/a            0.542         2.667       2.125      RAMB18_X7Y46  floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/opc/output_port_cluster[0].OPort/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg/CLKARDCLK
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_1
+  To Clock:  clk_pl_0
+
+Setup :            0  Failing Endpoints,  Worst Slack      999.502ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             999.502ns  (required time - arrival time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_0
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            1000.000ns  (MaxDelay Path 1000.000ns)
+  Data Path Delay:        0.523ns  (logic 0.076ns (14.532%)  route 0.447ns (85.468%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 1000.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X73Y97                                      0.000     0.000 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/C
+    SLICE_X73Y97         FDRE (Prop_EFF_SLICEM_C_Q)
+                                                      0.076     0.076 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/src_gray_ff_reg[3]/Q
+                         net (fo=1, routed)           0.447     0.523    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/async_path[3]
+    SLICE_X73Y97         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                 1000.000  1000.000                   
+    SLICE_X73Y97         FDRE (Setup_CFF2_SLICEM_C_D)
+                                                      0.025  1000.025    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst/dest_graysync_ff_reg[0][3]
+  -------------------------------------------------------------------
+                         required time                       1000.025                     
+                         arrival time                          -0.523                     
+  -------------------------------------------------------------------
+                         slack                                999.502                     
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  clk_pl_0
+  To Clock:  clk_pl_1
+
+Setup :            0  Failing Endpoints,  Worst Slack      999.610ns,  Total Violation        0.000ns
+Hold  :           NA  Failing Endpoints,  Worst Slack           NA  ,  Total Violation           NA
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             999.610ns  (required time - arrival time)
+  Source:                 floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_0  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+                            (rising edge-triggered cell FDRE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             clk_pl_1
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            1000.000ns  (MaxDelay Path 1000.000ns)
+  Data Path Delay:        0.415ns  (logic 0.079ns (19.036%)  route 0.336ns (80.964%))
+  Logic Levels:           0  
+  Timing Exception:       MaxDelay Path 1000.000ns -datapath_only
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X66Y94                                      0.000     0.000 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/C
+    SLICE_X66Y94         FDRE (Prop_EFF_SLICEL_C_Q)
+                                                      0.079     0.079 r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/src_gray_ff_reg[3]/Q
+                         net (fo=1, routed)           0.336     0.415    reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/async_path[3]
+    SLICE_X66Y94         FDRE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]/D
+  -------------------------------------------------------------------    ----------------------------------
+
+                         max delay                 1000.000  1000.000                   
+    SLICE_X66Y94         FDRE (Setup_CFF2_SLICEL_C_D)
+                                                      0.025  1000.025    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ipc/input_port_inst[0].IPort/data_converter_inst/xpm_fifo_async2user/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst/dest_graysync_ff_reg[0][3]
+  -------------------------------------------------------------------
+                         required time                       1000.025                     
+                         arrival time                          -0.415                     
+  -------------------------------------------------------------------
+                         slack                                999.610                     
+
+
+
+
+
+---------------------------------------------------------------------------------------------------
+Path Group:  **async_default**
+From Clock:  clk_pl_1
+  To Clock:  clk_pl_1
+
+Setup :            0  Failing Endpoints,  Worst Slack        3.247ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.846ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             3.247ns  (required time - arrival time)
+  Source:                 floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/CLR
+                            (recovery check against rising-edge clock clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             **async_default**
+  Path Type:              Recovery (Max at Slow Process Corner)
+  Requirement:            5.333ns  (clk_pl_1 rise@5.333ns - clk_pl_1 rise@0.000ns)
+  Data Path Delay:        1.940ns  (logic 0.079ns (4.072%)  route 1.861ns (95.928%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.032ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    1.794ns = ( 7.127 - 5.333 ) 
+    Source Clock Delay      (SCD):    1.919ns
+    Clock Pessimism Removal (CPR):    0.157ns
+  Clock Uncertainty:      0.112ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.213ns
+    Phase Error              (PE):    0.000ns
+  Clock Net Delay (Source):      1.756ns (routing 0.397ns, distribution 1.359ns)
+  Clock Net Delay (Destination): 1.662ns (routing 0.357ns, distribution 1.305ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.135     0.135    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.028     0.163 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.756     1.919    static         floorplan_static_i/rst_ps8_0_99M4/U0/slowest_sync_clk
+    SLICE_X36Y85         FDRE                                         r  static         floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X36Y85         FDRE (Prop_EFF_SLICEL_C_Q)
+                                                      0.079     1.998 f  static         floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/Q
+                         net (fo=304, routed)         1.861     3.859    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/reset_bft
+    SLICE_X61Y105        FDCE                                         f  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/CLR
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_1 rise edge)
+                                                      5.333     5.333 r                 
+    PS8_X0Y0             PS8                          0.000     5.333 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.107     5.440    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.025     5.465 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.662     7.127    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/clk_bft
+    SLICE_X61Y105        FDCE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/C
+                         clock pessimism              0.157     7.284                     
+                         clock uncertainty           -0.112     7.172                     
+    SLICE_X61Y105        FDCE (Recov_DFF2_SLICEM_C_CLR)
+                                                     -0.066     7.106    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]
+  -------------------------------------------------------------------
+                         required time                          7.106                     
+                         arrival time                          -3.859                     
+  -------------------------------------------------------------------
+                         slack                                  3.247                     
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.846ns  (arrival time - required time)
+  Source:                 floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/C
+                            (rising edge-triggered cell FDRE clocked by clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Destination:            floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/CLR
+                            (removal check against rising-edge clock clk_pl_1  {rise@0.000ns fall@2.667ns period=5.333ns})
+  Path Group:             **async_default**
+  Path Type:              Removal (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk_pl_1 rise@0.000ns - clk_pl_1 rise@0.000ns)
+  Data Path Delay:        0.941ns  (logic 0.039ns (4.145%)  route 0.902ns (95.855%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.115ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.291ns
+    Source Clock Delay      (SCD):    1.064ns
+    Clock Pessimism Removal (CPR):    0.112ns
+  Clock Net Delay (Source):      0.971ns (routing 0.217ns, distribution 0.754ns)
+  Clock Net Delay (Destination): 1.175ns (routing 0.247ns, distribution 0.928ns)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Partition      Netlist Resource(s)
+  -------------------------------------------------------------------    ----------------------------------
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.076     0.076    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.017     0.093 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         0.971     1.064    static         floorplan_static_i/rst_ps8_0_99M4/U0/slowest_sync_clk
+    SLICE_X36Y85         FDRE                                         r  static         floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/C
+  -------------------------------------------------------------------    ----------------------------------
+    SLICE_X36Y85         FDRE (Prop_EFF_SLICEL_C_Q)
+                                                      0.039     1.103 f  static         floorplan_static_i/rst_ps8_0_99M4/U0/PR_OUT_DFF[0].FDRE_PER/Q
+                         net (fo=304, routed)         0.902     2.005    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/reset_bft
+    SLICE_X61Y105        FDCE                                         f  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/CLR
+  -------------------------------------------------------------------    ----------------------------------
+
+                         (clock clk_pl_1 rise edge)
+                                                      0.000     0.000 r                 
+    PS8_X0Y0             PS8                          0.000     0.000 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/PS8_i/PLCLK[1]
+                         net (fo=1, routed)           0.098     0.098    static         floorplan_static_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[1]
+    BUFG_PS_X0Y49        BUFG_PS (Prop_BUFG_PS_I_O)
+                                                      0.018     0.116 r  static         floorplan_static_i/zynq_ultra_ps_e_0/inst/buffer_pl_clk_1.PL_CLK_1_BUFG/O
+    X1Y3 (CLOCK_ROOT)    net (fo=921, routed)         1.175     1.291    boundary       floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/clk_bft
+    SLICE_X61Y105        FDCE                                         r  reconfigurable floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]/C
+                         clock pessimism             -0.112     1.179                     
+    SLICE_X61Y105        FDCE (Remov_DFF2_SLICEM_C_CLR)
+                                                     -0.020     1.159    reconfigurable   floorplan_static_i/leaf_empty_5/inst/leaf_interface_inst/sfc/ConCtrl/rise_detect_u/data_out_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -1.159                     
+                         arrival time                           2.005                     
+  -------------------------------------------------------------------
+                         slack                                  0.846                     
+
+
+
+
+
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 12 23:13:21 2021...
