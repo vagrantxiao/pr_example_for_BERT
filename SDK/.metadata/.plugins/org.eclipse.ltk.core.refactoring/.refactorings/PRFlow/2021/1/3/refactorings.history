@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PRFlow/src/config_optical_flow.cpp&apos; to &apos;config.cc&apos;" description="Rename resource &apos;config_optical_flow.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/config_optical_flow.cpp" name="config.cc" stamp="1610502040693" updateReferences="true"/>&#x0A;&#x0A;<refactoring comment="Rename resource &apos;PRFlow/src/config_optical_flow.h&apos; to &apos;config.h&apos;" description="Rename resource &apos;config_optical_flow.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/config_optical_flow.h" name="config.h" stamp="1610505467145" updateReferences="true"/>
+</session>

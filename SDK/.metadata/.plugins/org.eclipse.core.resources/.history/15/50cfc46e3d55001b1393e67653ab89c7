@@ -1,0 +1,32 @@
+/*
+ * Program:
+
+ *   This program is a C++ driver for using one DMA in ZCU102 board.
+ *
+ * History:
+ *   2020/5/14     Yuanlong Xiao   First Release
+*/
+
+#include "xparameters.h"	/* SDK generated parameters */
+
+#include "stream.h"
+#include "typedefs.h"
+#include "config_rendering.h"
+#include "sleep.h"
+
+
+
+int main(void)
+{
+
+
+	init_regs();
+	xil_printf("BFT initialization DONE\n");
+	stream_inst stream(0, 0);
+
+
+
+	return XST_SUCCESS;
+}
+
+

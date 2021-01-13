@@ -1,0 +1,1862 @@
+20:15:17 **** Build of project PRFlow_bsp ****
+make -k all 
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_2/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/standalone_v6_7/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_3/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_3/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_7/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/scugic_v3_9/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_6/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/axidma_v9_7/src
+make -C psu_cortexa53_0/libsrc/axidma_v9_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/dppsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/dppsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_4/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_5/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_7/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_6/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_1/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_0/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_6/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_7/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/sdps_v3_5/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_2/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling csudma
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_7/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling standalone A53
+In file included from xtime_l.c:56:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:63:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:81:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_3/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ipipsu
+Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_3/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_7/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling emacps
+Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_9/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling scugic
+Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_6/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling uartps
+Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling canps
+Running Make libs in psu_cortexa53_0/libsrc/axidma_v9_7/src
+make -C psu_cortexa53_0/libsrc/axidma_v9_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling axidma
+Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling avbuf
+Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling dpdma
+Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sysmonpsu
+Running Make libs in psu_cortexa53_0/libsrc/dppsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/dppsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling dppsu
+xdppsu.c: In function 'XDpPsu_CheckClockRecovery':
+xdppsu.c:493:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (!(LaneStatus[0] &
+      ^
+xdppsu.c:498:2: note: here
+  case XDPPSU_LANE_COUNT_SET_1:
+  ^~~~
+xdppsu.c:499:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (!(LaneStatus[0] &
+      ^
+xdppsu.c:503:2: note: here
+  default:
+  ^~~~~~~
+xdppsu.c: In function 'XDpPsu_CheckChannelEqualization':
+xdppsu.c:537:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (!(LaneStatus[0] &
+      ^
+xdppsu.c:542:2: note: here
+  case XDPPSU_LANE_COUNT_SET_1:
+  ^~~~
+xdppsu.c:555:6: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   if (!(LaneStatus[0] &
+      ^
+xdppsu.c:560:2: note: here
+  case XDPPSU_LANE_COUNT_SET_1:
+  ^~~~
+Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_4/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling video_common
+Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_5/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling rtcpsu
+Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ddrcpsu
+Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_5/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling zdma
+Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_7/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling qspipsu
+Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling cpu_cortexa53
+Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_6/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_1/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling resetps
+Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_0/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling wdtps
+Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_6/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling axipmon
+Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_7/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling iicps
+Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_5/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sdps
+Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling usbpsu
+Finished building libraries
+20:15:29 **** Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30124	   2344	  20680	  53148	   cf9c	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:16:22 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/main.d  ./src/main.o  PRFlow.elf.size  PRFlow.elf
+ 
+
+****  of configuration Debug for project PRFlow ****
+
+Nothing to build for project PRFlow
+20:16:43 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config_rendering.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config_rendering.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config_rendering.d" -MT"src/config_rendering.o" -o "src/config_rendering.o" "../src/config_rendering.cpp"
+../src/config_rendering.cpp: In function 'void read_from_fifo(int*)':
+../src/config_rendering.cpp:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config_rendering.cpp:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config_rendering.cpp
+ 
+Building file: ../src/dma_driver.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_driver.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/dma_driver.d" -MT"src/dma_driver.o" -o "src/dma_driver.o" "../src/dma_driver.cc"
+In file included from ../src/dma_driver.cc:3:0:
+../../PRFlow_bsp/psu_cortexa53_0/include/xtime_l.h:81:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+../src/dma_driver.cc: In member function 'int dma_inst::RxSetup(XAxiDma*)':
+../src/dma_driver.cc:107:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < FreeBdCount; i++) {
+              ~~^~~~~~~~~~~~~
+../src/dma_driver.cc:134:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (i == (FreeBdCount - 1)) {
+       ~~^~~~~~~~~~~~~~~~~~~~
+../src/dma_driver.cc: In member function 'int dma_inst::WR2TxBuffer()':
+../src/dma_driver.cc:228:5: warning: unused variable 'Value' [-Wunused-variable]
+  u8 Value;
+     ^~~~~
+../src/dma_driver.cc: In member function 'int dma_inst::SendPackets()':
+../src/dma_driver.cc:283:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < number_of_packets; i++) {
+              ~~^~~~~~~~~~~~~~~~~~~
+../src/dma_driver.cc:321:9: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if (i == (number_of_packets - 1)) {
+       ~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/dma_driver.cc: In member function 'int dma_inst::RecvPackets()':
+../src/dma_driver.cc:391:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/dma_driver.cc: In member function 'int dma_inst::RecvWait()':
+../src/dma_driver.cc:405:6: warning: unused variable 'total' [-Wunused-variable]
+  int total = 0;
+      ^~~~~
+../src/dma_driver.cc: In member function 'int dma_inst::CheckData()':
+../src/dma_driver.cc:429:21: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  RxPacket = (u32 *) rx_buffer_base;
+                     ^~~~~~~~~~~~~~
+../src/dma_driver.cc:427:6: warning: unused variable 'i' [-Wunused-variable]
+  int i = 0;
+      ^
+../src/dma_driver.cc:428:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = 0;
+      ^
+../src/dma_driver.cc: In constructor 'dma_inst::dma_inst(u32, u32, u32, u32, u32, u32, u32, u32, u32, u32, u32)':
+../src/dma_driver.cc:560:25: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  this->Packet = (u32 *) TX_BUFFER_BASE_in;
+                         ^~~~~~~~~~~~~~~~~
+../src/dma_driver.cc: In member function 'int dma_inst::run_dma()':
+../src/dma_driver.cc:536:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/dma_driver.cc
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:18:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+In file included from ../src/dma_driver.h:4:0,
+                 from ../src/host.cc:16:
+../../PRFlow_bsp/psu_cortexa53_0/include/xtime_l.h:81:70: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+                                                                      ^
+In file included from ../src/host.cc:20:0:
+../src/my_timer.h:4:12: warning: 'int SetupInterruptSystem(XScuGic*, XRtcPsu*, u16)' declared 'static' but never defined [-Wunused-function]
+ static int SetupInterruptSystem(XScuGic *IntcInstancePtr,
+            ^~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building file: ../src/my_timer.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/my_timer.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/my_timer.d" -MT"src/my_timer.o" -o "src/my_timer.o" "../src/my_timer.cc"
+In file included from ../src/my_timer.cc:1:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/my_timer.cc
+ 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/dma_driver.o ./src/host.o ./src/my_timer.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 103352	  36568	 266688	 406608	  63450	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:16:53 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/dma_driver.d ./src/host.d ./src/my_timer.d ./src/stream.d  ./src/config_rendering.o ./src/dma_driver.o ./src/host.o ./src/my_timer.o ./src/stream.o  ./src/config_rendering.d  PRFlow.elf.size  PRFlow.elf
+ 
+20:16:54 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config_rendering.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config_rendering.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config_rendering.d" -MT"src/config_rendering.o" -o "src/config_rendering.o" "../src/config_rendering.cpp"
+../src/config_rendering.cpp: In function 'void read_from_fifo(int*)':
+../src/config_rendering.cpp:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config_rendering.cpp:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config_rendering.cpp
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+../src/host.cc:16:10: fatal error: dma_driver.h: No such file or directory
+ #include "dma_driver.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:41: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:17:04 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/host.d ./src/my_timer.d ./src/stream.d  ./src/config_rendering.o ./src/host.o ./src/my_timer.o ./src/stream.o  ./src/config_rendering.d  PRFlow.elf.size  PRFlow.elf
+ 
+20:17:05 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config_rendering.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config_rendering.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config_rendering.d" -MT"src/config_rendering.o" -o "src/config_rendering.o" "../src/config_rendering.cpp"
+../src/config_rendering.cpp: In function 'void read_from_fifo(int*)':
+../src/config_rendering.cpp:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config_rendering.cpp:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config_rendering.cpp
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+../src/host.cc:16:10: fatal error: dma_driver.h: No such file or directory
+ #include "dma_driver.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/host.o] Error 1
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+20:17:18 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:50:2: error: 'dma_inst' was not declared in this scope
+  dma_inst dma1(DMA_DEV_ID,
+  ^~~~~~~~
+../src/host.cc:50:2: note: suggested alternative: 'main'
+  dma_inst dma1(DMA_DEV_ID,
+  ^~~~~~~~
+  main
+../src/host.cc:62:11: error: 'dma1' was not declared in this scope
+  Status = dma1.dma_init();
+           ^~~~
+../src/host.cc:62:11: note: suggested alternative: 'dmb'
+  Status = dma1.dma_init();
+           ^~~~
+           dmb
+../src/host.cc:122:3: error: 'printf' was not declared in this scope
+   printf("%d seconds\n", i);
+   ^~~~~~
+../src/host.cc:122:3: note: suggested alternative: 'print'
+   printf("%d seconds\n", i);
+   ^~~~~~
+   print
+make: *** [src/host.o] Error 1
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+20:17:35 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:36:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+Finished building: ../src/host.cc
+ 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:17:55 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:36:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:18:00 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:22:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:18:03 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:18:24 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:18:33 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79896	   4608	 266520	 351024	  55b30	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:19:50 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:26:6: error: 'i' was not declared in this scope
+  for(i=0; i<100; i++){
+      ^
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:21:02 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:55: error: no matching function for call to 'stream_inst::stream1_read()'
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+                                                       ^
+In file included from ../src/host.cc:12:0:
+../src/stream.h:23:15: note: candidate: unsigned int stream_inst::stream1_read(unsigned int*)
+  unsigned int stream1_read(unsigned int * data);
+               ^~~~~~~~~~~~
+../src/stream.h:23:15: note:   candidate expects 1 argument, 0 provided
+../src/host.cc:29:3: error: 'printf' was not declared in this scope
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+   ^~~~~~
+../src/host.cc:29:3: note: suggested alternative: 'print'
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+   ^~~~~~
+   print
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:21:09 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:59: error: no matching function for call to 'stream_inst::stream1_read()'
+   xil_printf("%d op %d = %d", i, i+1, stream.stream1_read());
+                                                           ^
+In file included from ../src/host.cc:12:0:
+../src/stream.h:23:15: note: candidate: unsigned int stream_inst::stream1_read(unsigned int*)
+  unsigned int stream1_read(unsigned int * data);
+               ^~~~~~~~~~~~
+../src/stream.h:23:15: note:   candidate expects 1 argument, 0 provided
+make: *** [src/host.o] Error 1
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+20:21:15 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:55: error: no matching function for call to 'stream_inst::stream1_read()'
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+                                                       ^
+In file included from ../src/host.cc:12:0:
+../src/stream.h:23:15: note: candidate: unsigned int stream_inst::stream1_read(unsigned int*)
+  unsigned int stream1_read(unsigned int * data);
+               ^~~~~~~~~~~~
+../src/stream.h:23:15: note:   candidate expects 1 argument, 0 provided
+../src/host.cc:29:3: error: 'printf' was not declared in this scope
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+   ^~~~~~
+../src/host.cc:29:3: note: suggested alternative: 'print'
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+   ^~~~~~
+   print
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:21:25 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:55: error: no matching function for call to 'stream_inst::stream1_read()'
+   printf("%d op %d = %d", i, i+1, stream.stream1_read());
+                                                       ^
+In file included from ../src/host.cc:12:0:
+../src/stream.h:23:15: note: candidate: unsigned int stream_inst::stream1_read(unsigned int*)
+  unsigned int stream1_read(unsigned int * data);
+               ^~~~~~~~~~~~
+../src/stream.h:23:15: note:   candidate expects 1 argument, 0 provided
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:22:17 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:42: error: 'class stream_inst' has no member named 'strea1_read'; did you mean 'stream1_read'?
+   printf("%d op %d = %d", i, i+1, stream.strea1_read(&data) );
+                                          ^~~~~~~~~~~
+                                          stream1_read
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:22:27 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80040	   4608	 266504	 351152	  55bb0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:23:09 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80104	   4608	 266504	 351216	  55bf0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:23:48 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:22:15: warning: unused variable 'read_success' [-Wunused-variable]
+  unsigned int read_success = 0;
+               ^~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80104	   4608	 266504	 351216	  55bf0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:24:00 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80104	   4608	 266504	 351216	  55bf0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:24:14 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:31:4: error: 'iread_success' was not declared in this scope
+    iread_success = tream.stream1_read(&data);
+    ^~~~~~~~~~~~~
+../src/host.cc:31:4: note: suggested alternative: 'read_success'
+    iread_success = tream.stream1_read(&data);
+    ^~~~~~~~~~~~~
+    read_success
+../src/host.cc:31:20: error: 'tream' was not declared in this scope
+    iread_success = tream.stream1_read(&data);
+                    ^~~~~
+../src/host.cc:31:20: note: suggested alternative: 'stream'
+    iread_success = tream.stream1_read(&data);
+                    ^~~~~
+                    stream
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:24:18 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:31:19: error: 'tream' was not declared in this scope
+    read_success = tream.stream1_read(&data);
+                   ^~~~~
+../src/host.cc:31:19: note: suggested alternative: 'stream'
+    read_success = tream.stream1_read(&data);
+                   ^~~~~
+                   stream
+make: *** [src/host.o] Error 1
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+20:24:24 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80040	   4608	 266504	 351152	  55bb0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:24:46 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:22:15: warning: unused variable 'read_success' [-Wunused-variable]
+  unsigned int read_success = 0;
+               ^~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80104	   4608	 266504	 351216	  55bf0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:24:50 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80040	   4608	 266504	 351152	  55bb0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:25:11 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80040	   4608	 266504	 351152	  55bb0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+20:40:14 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config_optical_flow.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config_optical_flow.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config_optical_flow.d" -MT"src/config_optical_flow.o" -o "src/config_optical_flow.o" "../src/config_optical_flow.cpp"
+../src/config_optical_flow.cpp: In function 'void read_from_fifo(int*)':
+../src/config_optical_flow.cpp:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config_optical_flow.cpp:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config_optical_flow.cpp
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config_optical_flow.o ./src/config_rendering.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+./src/config_rendering.o: In function `read_from_fifo(int*)':
+/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_rendering.cpp:26: multiple definition of `read_from_fifo(int*)'
+./src/config_optical_flow.o:/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_optical_flow.cpp:26: first defined here
+./src/config_rendering.o: In function `write_to_fifo(int, int, int*)':
+makefile:48: recipe for target 'PRFlow.elf' failed
+/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_rendering.cpp:47: multiple definition of `write_to_fifo(int, int, int*)'
+./src/config_optical_flow.o:/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_optical_flow.cpp:47: first defined here
+./src/config_rendering.o: In function `init_regs()':
+/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_rendering.cpp:57: multiple definition of `init_regs()'
+./src/config_optical_flow.o:/home/ylxiao/ws_201/ForBERT/SDK/PRFlow/Debug/../src/config_optical_flow.cpp:57: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [PRFlow.elf] Error 1
+20:40:26 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/host.d ./src/stream.d  ./src/config_optical_flow.o ./src/config_rendering.o ./src/host.o ./src/stream.o  ./src/config_optical_flow.d ./src/config_rendering.d  PRFlow.elf.size  PRFlow.elf
+ 
+20:40:26 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config_optical_flow.cpp
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config_optical_flow.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config_optical_flow.d" -MT"src/config_optical_flow.o" -o "src/config_optical_flow.o" "../src/config_optical_flow.cpp"
+../src/config_optical_flow.cpp: In function 'void read_from_fifo(int*)':
+../src/config_optical_flow.cpp:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config_optical_flow.cpp:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config_optical_flow.cpp
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc:14:10: fatal error: config_rendering.h: No such file or directory
+ #include "config_rendering.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:38: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+20:40:40 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/host.d ./src/stream.d  ./src/config_optical_flow.o ./src/host.o ./src/stream.o  ./src/config_optical_flow.d  PRFlow.elf.size  PRFlow.elf
+ 
+20:40:41 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc:14:10: fatal error: config_rendering.h: No such file or directory
+ #include "config_rendering.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/host.o] Error 1
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+20:40:51 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/config.d ./src/host.d ./src/stream.d  ./src/config.o ./src/host.o ./src/stream.o  PRFlow.elf.size  PRFlow.elf
+ 
+20:40:51 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc:14:10: fatal error: config_rendering.h: No such file or directory
+ #include "config_rendering.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/host.o] Error 1
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+20:40:57 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79208	   4608	 266504	 350320	  55870	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:10:12 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:10:45 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79336	   4608	 266504	 350448	  558f0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:11:02 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:28:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:30:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79368	   4608	 266536	 350512	  55930	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:11:36 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:12:24 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:28 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:25:12: error: 'SLV_REG6' was not declared in this scope
+  Xil_Out32(SLV_REG6, 1);
+            ^~~~~~~~
+../src/host.cc:29:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:31:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+make: *** [src/host.o] Error 1
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+21:24:49 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:29:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:31:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79456	   4608	 266536	 350600	  55988	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:24:51 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:30:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:32:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79456	   4608	 266536	 350600	  55988	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:25:44 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:26:27 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:27:49 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79392	   4608	 266536	 350536	  55948	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:28:34 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:21 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79328	   4608	 266536	 350472	  55908	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:30:49 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79232	   4608	 266504	 350344	  55888	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:31:57 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:32:45 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79296	   4608	 266504	 350408	  558c8	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:34:13 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:37:24 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/config.d ./src/host.d ./src/stream.d  ./src/config.o ./src/host.o ./src/stream.o  PRFlow.elf.size  PRFlow.elf
+ 
+21:37:24 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc:14:10: fatal error: config.h: No such file or directory
+ #include "config.h"
+          ^~~~~~~~~~
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+21:37:32 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc:14:10: fatal error: config.h: No such file or directory
+ #include "config.h"
+          ^~~~~~~~~~
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+21:37:47 **** Clean-only build of configuration Debug for project PRFlow ****
+make clean 
+rm -rf  ./src/config.d ./src/host.d ./src/stream.d  ./src/config.o ./src/host.o ./src/stream.o  PRFlow.elf.size  PRFlow.elf
+ 
+21:37:47 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:30:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:32:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+Finished building: ../src/host.cc
+ 
+Building file: ../src/stream.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stream.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/stream.d" -MT"src/stream.o" -o "src/stream.o" "../src/stream.cc"
+Finished building: ../src/stream.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79392	   4608	 266536	 350536	  55948	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:37:59 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:38:42 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:40:22 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:31:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 1\n", i, i+1,  data);
+                                    ^
+../src/host.cc:33:36: warning: too many arguments for format [-Wformat-extra-args]
+   printf("write 2\n", i, i+1,  data);
+                                    ^
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79392	   4608	 266536	 350536	  55948	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:40:37 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79504	   4608	 266544	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:41:19 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:43:25 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79576	   4608	 266536	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:43:59 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:44:33 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:23:15: warning: unused variable 'read_exist' [-Wunused-variable]
+  unsigned int read_exist = 0;
+               ^~~~~~~~~~
+../src/host.cc:35:9: warning: 'data2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("%d op %d = %d, %d\n", i, i+1,  data1, data2);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79512	   4608	 266536	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:44:40 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:35:47: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("%d op %d = %d, %d\n", i, i+1,  data1);
+                                               ^
+../src/host.cc:22:22: warning: unused variable 'data2' [-Wunused-variable]
+  unsigned int data1, data2;
+                      ^~~~~
+../src/host.cc:23:15: warning: unused variable 'read_exist' [-Wunused-variable]
+  unsigned int read_exist = 0;
+               ^~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79512	   4608	 266536	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:44:49 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:34:47: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("%d op %d = %d, %d\n", i, i+1,  data1);
+                                               ^
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79512	   4608	 266536	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:45:07 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79504	   4608	 266544	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:45:22 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:45:47 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79568	   4608	 266544	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:45:56 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79576	   4608	 266536	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:46:00 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:46:17 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:40:2: error: expected ';' before 'return'
+  return XST_SUCCESS;
+  ^~~~~~
+src/subdir.mk:27: recipe for target 'src/host.o' failed
+make: *** [src/host.o] Error 1
+21:46:20 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   4608	 266528	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:46:24 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:48:54 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   4608	 266528	 350784	  55a40	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:49:28 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:51:26 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   4608	 266528	 350784	  55a40	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:51:49 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:34:9: warning: 'data2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("%d op %d = %d op %d\n", i, i+1,  data1, data2);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   4608	 266528	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:52:03 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:52:45 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:53:24 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:34:9: warning: 'data1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("%d op %d = %d op %d\n", i, i+1,  data1, data2);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/host.cc:34:9: warning: 'data2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79520	   4608	 266528	 350656	  559c0	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:53:27 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:34:9: warning: 'data2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   printf("%d op %d = %d op %d\n", i, i+1,  data1, data2);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   4608	 266528	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+21:54:42 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+21:57:03 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+22:23:57 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/config.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/config.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.cc"
+../src/config.cc: In function 'void read_from_fifo(int*)':
+../src/config.cc:27:8: warning: variable 'rev_0' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+        ^~~~~
+../src/config.cc:27:15: warning: variable 'rev_1' set but not used [-Wunused-but-set-variable]
+    int rev_0, rev_1;
+               ^~~~~
+Finished building: ../src/config.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   4608	 266528	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+22:24:20 **** Auto Build of configuration Debug for project PRFlow ****
+make all 
+Building file: ../src/host.cc
+Invoking: ARM v8 g++ compiler
+aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../PRFlow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
+In file included from ../src/host.cc:13:0:
+../src/typedefs.h:38:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+../src/host.cc: In function 'int main()':
+../src/host.cc:22:22: warning: unused variable 'data2' [-Wunused-variable]
+  unsigned int data1, data2;
+                      ^~~~~
+Finished building: ../src/host.cc
+ 
+Building target: PRFlow.elf
+Invoking: ARM v8 g++ linker
+aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../PRFlow_bsp/psu_cortexa53_0/lib -o "PRFlow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: PRFlow.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PRFlow.elf  |tee "PRFlow.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79576	   4608	 266536	 350720	  55a00	PRFlow.elf
+Finished building: PRFlow.elf.size
+ 
+22:24:29 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
+22:34:59 **** Incremental Build of configuration Debug for project PRFlow ****
+make all 
+make: Nothing to be done for 'all'.
