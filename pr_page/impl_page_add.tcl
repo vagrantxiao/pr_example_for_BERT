@@ -6,8 +6,8 @@ set_param general.maxThreads 2
 #####################
 set start_time [clock seconds]
 open_checkpoint ../overlay/overlay.dcp
-update_design -cell floorplan_static_i/leaf_empty_5/inst -black_box
-read_checkpoint -cell floorplan_static_i/leaf_empty_5/inst page_add_netlist.dcp
+update_design -cell u96_pr_i/leaf_empty_0/inst -black_box
+read_checkpoint -cell u96_pr_i/leaf_empty_0/inst page_add_netlist.dcp
 set end_time [clock seconds]
 set total_seconds [expr $end_time - $start_time]
 puts $logFileId "read_checkpoint: $total_seconds seconds"
@@ -48,7 +48,7 @@ write_checkpoint -force   add_routed.dcp
 ###############
 set_param bitstream.enablePR 2341
 set start_time [clock seconds]
-write_bitstream  -force  -cell floorplan_static_i/leaf_empty_5/inst add.bit
+write_bitstream  -force  -cell u96_pr_i/leaf_empty_0/inst add.bit
 set end_time [clock seconds]
 set total_seconds [expr $end_time - $start_time]
 puts $logFileId "bit_gen: $total_seconds seconds"

@@ -1,4 +1,9 @@
-VIVADO_PATH=/opt/Xilinx/SDx/2018.2/settings64.sh
+ifndef XILINX_VIVADO
+    XILINX_VIVADO=/opt/Xilinx/Vivado/2018.3
+endif
+
+
+VIVADO_PATH=$(XILINX_VIVADO)/settings64.sh
 
 all:
 	echo "Hello"
