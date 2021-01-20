@@ -32,9 +32,18 @@ pr_page/page_mul_netlist.dcp:
 
 
 clean:
+	mv ./pr_page/page_add_netlist.dcp ./pr_page/page_add_netlist.dcpx
+	mv ./pr_page/page_mul_netlist.dcp ./pr_page/page_mul_netlist.dcpx
 	rm -rf ./pr_page/*.dcp ./pr_page/*.html ./pr_page/*.bit
 	rm -rf ./pr_page/hd* ./pr_page/*.xml ./pr_page/*.bit
 	rm -rf ./pr_page/*.log ./pr_page/*.rpt ./pr_page/*.jou
 	rm -rf ./pr_page/.Xil ./pr_page/*.rpt ./pr_page/*.jou
+	mv ./pr_page/page_add_netlist.dcpx ./pr_page/page_add_netlist.dcp
+	mv ./pr_page/page_mul_netlist.dcpx ./pr_page/page_mul_netlist.dcp
 
 
+clean_all:
+	rm -rf ./pr_page/*.dcp ./pr_page/*.html ./pr_page/*.bit
+	rm -rf ./pr_page/hd* ./pr_page/*.xml ./pr_page/*.bit
+	rm -rf ./pr_page/*.log ./pr_page/*.rpt ./pr_page/*.jou
+	rm -rf ./pr_page/.Xil ./pr_page/*.rpt ./pr_page/*.jou

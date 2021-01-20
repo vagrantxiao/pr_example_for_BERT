@@ -99,3 +99,157 @@ con
 ----------------End of Script----------------
 
 14:52:27 INFO  : Launch script is exported to file '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_pr_flow.elf_on_local.tcl'
+15:04:16 INFO  : Disconnected from the channel tcfchan#2.
+15:04:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:18 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A5EE19' is selected.
+15:04:18 INFO  : 'jtag frequency' command is executed.
+15:04:18 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:04:18 INFO  : Context for 'APU' is selected.
+15:04:18 INFO  : Hardware design information is loaded from '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf'.
+15:04:18 INFO  : 'configparams force-mem-access 1' command is executed.
+15:04:18 INFO  : Context for 'APU' is selected.
+15:04:18 INFO  : Sourcing of '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:04:18 INFO  : 'psu_init' command is executed.
+15:04:19 INFO  : 'after 1000' command is executed.
+15:04:19 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:04:20 INFO  : 'after 1000' command is executed.
+15:04:20 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:04:21 INFO  : 'catch {psu_protection}' command is executed.
+15:04:21 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:04:21 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:04:22 ERROR : Memory write error at 0x0. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout
+15:04:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+rst -processor
+dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf
+----------------End of Script----------------
+
+15:04:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:30 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A5EE19' is selected.
+15:04:30 INFO  : 'jtag frequency' command is executed.
+15:04:30 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:04:30 INFO  : Context for 'APU' is selected.
+15:04:30 INFO  : Hardware design information is loaded from '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf'.
+15:04:30 INFO  : 'configparams force-mem-access 1' command is executed.
+15:04:30 INFO  : Context for 'APU' is selected.
+15:04:30 INFO  : Sourcing of '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:04:31 ERROR : Memory read error at 0xFFCA5000. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout
+15:04:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+----------------End of Script----------------
+
+15:05:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:10 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A5EE19' is selected.
+15:05:10 INFO  : 'jtag frequency' command is executed.
+15:05:10 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:05:10 INFO  : Context for 'APU' is selected.
+15:05:10 INFO  : Hardware design information is loaded from '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf'.
+15:05:10 INFO  : 'configparams force-mem-access 1' command is executed.
+15:05:10 INFO  : Context for 'APU' is selected.
+15:05:10 INFO  : Sourcing of '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:05:11 INFO  : 'psu_init' command is executed.
+15:05:12 INFO  : 'after 1000' command is executed.
+15:05:12 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:05:13 INFO  : 'after 1000' command is executed.
+15:05:13 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:05:13 INFO  : 'catch {psu_protection}' command is executed.
+15:05:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:05:13 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:05:13 INFO  : The application '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:05:13 INFO  : 'configparams force-mem-access 0' command is executed.
+15:05:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+rst -processor
+dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:05:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:05:13 INFO  : 'con' command is executed.
+15:05:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+con
+----------------End of Script----------------
+
+15:05:13 INFO  : Launch script is exported to file '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_pr_flow.elf_on_local.tcl'
+15:15:49 INFO  : Disconnected from the channel tcfchan#3.
+15:15:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:50 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A5EE19' is selected.
+15:15:50 INFO  : 'jtag frequency' command is executed.
+15:15:50 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:15:50 INFO  : Context for 'APU' is selected.
+15:15:50 INFO  : Hardware design information is loaded from '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf'.
+15:15:50 INFO  : 'configparams force-mem-access 1' command is executed.
+15:15:50 INFO  : Context for 'APU' is selected.
+15:15:50 INFO  : Sourcing of '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:15:51 INFO  : 'psu_init' command is executed.
+15:15:52 INFO  : 'after 1000' command is executed.
+15:15:52 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:15:53 INFO  : 'after 1000' command is executed.
+15:15:53 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:15:53 INFO  : 'catch {psu_protection}' command is executed.
+15:15:53 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:15:53 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:15:53 INFO  : The application '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:15:53 INFO  : 'configparams force-mem-access 0' command is executed.
+15:15:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+rst -processor
+dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:15:53 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:15:53 INFO  : 'con' command is executed.
+15:15:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1
+con
+----------------End of Script----------------
+
+15:15:53 INFO  : Launch script is exported to file '/home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_pr_flow.elf_on_local.tcl'

@@ -23620,3 +23620,1559 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-9
 
 !ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 14:52:27.341
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.854
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.855
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.855
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.856
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.856
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:12.856
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:16.972
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-282
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:16.977
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-282
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-01-20 15:04:17.979
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:17.983
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:17.992
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:17.993
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.013
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.014
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.026
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.027
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.063
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.063
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.070
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.070
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.085
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.085
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.087
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.087
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.088
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.088
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.116
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the respective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.116
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.121
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.121
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.133
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.134
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.137
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.138
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.149
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.149
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.150
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.151
+!MESSAGE XSCT Command: [version], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.151
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.151
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.155
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.155
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.168
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.168
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.181
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.182
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.182
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.182
+!MESSAGE XSCT Command: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.183
+!MESSAGE XSCT command with result: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.183
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.205
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.205
+!MESSAGE XSCT Command: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.220
+!MESSAGE XSCT command with result: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Result: [null, floorplan_static_wrapper]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.221
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.222
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.222
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.238
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.239
+!MESSAGE XSCT Command: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.244
+!MESSAGE XSCT command with result: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.244
+!MESSAGE XSCT Command: [psu_init], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.919
+!MESSAGE XSCT command with result: [psu_init], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:18.919
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:19.921
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:19.921
+!MESSAGE XSCT Command: [psu_ps_pl_isolation_removal], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:19.934
+!MESSAGE XSCT command with result: [psu_ps_pl_isolation_removal], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:19.934
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:20.937
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:20.937
+!MESSAGE XSCT Command: [psu_ps_pl_reset_config], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:20.965
+!MESSAGE XSCT command with result: [psu_ps_pl_reset_config], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:20.966
+!MESSAGE XSCT Command: [catch {psu_protection}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.024
+!MESSAGE XSCT command with result: [catch {psu_protection}], Result: [null, 0]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.025
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.072
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.072
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.177
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:21.178
+!MESSAGE XSCT Command: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:22.014
+!MESSAGE XSCT command with result: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Result: [{Format=Memory write error at 0x0. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout, Time=1611173062014, Code=1}, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.289
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.290
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.290
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.291
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.291
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:27.292
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-01-20 15:04:30.527
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.529
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.531
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.531
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.537
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.537
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.542
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.542
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.557
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.557
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.561
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.561
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.573
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.573
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.575
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.575
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.576
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.576
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.604
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the respective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.605
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.609
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.609
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.621
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.621
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.626
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.626
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.639
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.639
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.642
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.642
+!MESSAGE XSCT Command: [version], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.643
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.643
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.647
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.647
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.659
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.659
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.672
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.672
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.673
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.673
+!MESSAGE XSCT Command: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.674
+!MESSAGE XSCT command with result: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.674
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.692
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.693
+!MESSAGE XSCT Command: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.696
+!MESSAGE XSCT command with result: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Result: [null, floorplan_static_wrapper]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.697
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.697
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.697
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.714
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.715
+!MESSAGE XSCT Command: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.721
+!MESSAGE XSCT command with result: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:30.721
+!MESSAGE XSCT Command: [psu_init], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:04:31.318
+!MESSAGE XSCT command with result: [psu_init], Result: [{Format=Memory read error at 0xFFCA5000. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout, Time=1611173071317, Code=1}, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.171
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.172
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.172
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.173
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.173
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:07.174
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-01-20 15:05:10.285
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.285
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.286
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.287
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.291
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.292
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.296
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.296
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.308
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.309
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.312
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.313
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.324
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.325
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.327
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.327
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.328
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.328
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.356
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the respective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.356
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.360
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.361
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.372
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.373
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.376
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.377
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.389
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.389
+!MESSAGE XSCT Command: [version -server], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.390
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.390
+!MESSAGE XSCT Command: [version], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.391
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.391
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.395
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.395
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.407
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.407
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.420
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.420
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.421
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.422
+!MESSAGE XSCT Command: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.422
+!MESSAGE XSCT command with result: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.422
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.444
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.445
+!MESSAGE XSCT Command: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.459
+!MESSAGE XSCT command with result: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Result: [null, floorplan_static_wrapper]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.459
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.460
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.461
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.479
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.479
+!MESSAGE XSCT Command: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.484
+!MESSAGE XSCT command with result: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:10.484
+!MESSAGE XSCT Command: [psu_init], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:11.198
+!MESSAGE XSCT command with result: [psu_init], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:11.198
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:12.200
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:12.202
+!MESSAGE XSCT Command: [psu_ps_pl_isolation_removal], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:12.217
+!MESSAGE XSCT command with result: [psu_ps_pl_isolation_removal], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:12.218
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.221
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.221
+!MESSAGE XSCT Command: [psu_ps_pl_reset_config], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.250
+!MESSAGE XSCT command with result: [psu_ps_pl_reset_config], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.251
+!MESSAGE XSCT Command: [catch {psu_protection}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.303
+!MESSAGE XSCT command with result: [catch {psu_protection}], Result: [null, 0]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.304
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.339
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.339
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.440
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.441
+!MESSAGE XSCT Command: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.889
+!MESSAGE XSCT command with result: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.889
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.890
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.897
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.917
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.917
+!MESSAGE XSCT Command: [con], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:05:13.944
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.699
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.700
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.700
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.701
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.701
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:44.702
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:49.011
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-404
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:49.017
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-404
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-01-20 15:15:50.017
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.017
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.020
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.021
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.027
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.027
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.032
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.032
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.044
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.044
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.048
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.048
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.060
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.060
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.062
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss ], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.062
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.063
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.063
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.094
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the respective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.094
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.098
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.098
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.110
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.110
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.114
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.114
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.128
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.129
+!MESSAGE XSCT Command: [version -server], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.130
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.130
+!MESSAGE XSCT Command: [version], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.130
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.130
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.134
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308A5EE19]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.134
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.146
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level==1}], Result: [null,      2  xczu9 (idcode 24738093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.146
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.159
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308A5EE19" && level == 0}], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.159
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.160
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.160
+!MESSAGE XSCT Command: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.160
+!MESSAGE XSCT command with result: [source /opt/Xilinx/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.160
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.183
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.183
+!MESSAGE XSCT Command: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.198
+!MESSAGE XSCT command with result: [loadhw -hw /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Result: [null, floorplan_static_wrapper]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.199
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.200
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.200
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.218
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.219
+!MESSAGE XSCT Command: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.224
+!MESSAGE XSCT command with result: [source /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/floorplan_static_wrapper_hw_platform_0/psu_init.tcl], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:50.224
+!MESSAGE XSCT Command: [psu_init], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:51.219
+!MESSAGE XSCT command with result: [psu_init], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:51.219
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:52.221
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:52.222
+!MESSAGE XSCT Command: [psu_ps_pl_isolation_removal], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:52.236
+!MESSAGE XSCT command with result: [psu_ps_pl_isolation_removal], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:52.237
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.238
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.239
+!MESSAGE XSCT Command: [psu_ps_pl_reset_config], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.265
+!MESSAGE XSCT command with result: [psu_ps_pl_reset_config], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.266
+!MESSAGE XSCT Command: [catch {psu_protection}], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.315
+!MESSAGE XSCT command with result: [catch {psu_protection}], Result: [null, 0]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.315
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.358
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.358
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.400
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.400
+!MESSAGE XSCT Command: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.852
+!MESSAGE XSCT command with result: [dow /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/pr_flow/Debug/pr_flow.elf], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.852
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.853
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.860
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.880
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A5EE19"} -index 1], Result: [null, ]. Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.880
+!MESSAGE XSCT Command: [con], Thread: Worker-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-01-20 15:15:53.919
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-15
