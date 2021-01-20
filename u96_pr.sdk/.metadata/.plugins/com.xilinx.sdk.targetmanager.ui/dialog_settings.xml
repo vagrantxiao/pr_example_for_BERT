@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<item value="false" key="u96_pr_wrapper_hw_platform_0-partial_bit"/>
-	<item value="" key="u96_pr_wrapper_hw_platform_0-bmmFile"/>
-	<item value="u96_pr_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
-	<item value="Auto Detect" key="u96_pr_wrapper_hw_platform_0-device"/>
-	<item value="Local" key="u96_pr_wrapper_hw_platform_0-target"/>
-	<item value="/home/ylxiao/ws_201/config/main.bit" key="u96_pr_wrapper_hw_platform_0-bitFile"/>
-</section>

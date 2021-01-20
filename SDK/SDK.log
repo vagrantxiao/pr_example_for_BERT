@@ -1,0 +1,6 @@
+14:13:48 INFO  : Registering command handlers for SDK TCF services
+14:13:49 INFO  : Launching XSCT server: xsct -n -interactive /home/ylxiao/ws_183/BERT/pr_example_for_BERT/SDK/temp_xsdb_launch_script.tcl
+14:13:52 INFO  : XSCT server has started successfully.
+14:13:52 INFO  : Successfully done setting XSCT server connection channel  
+14:13:52 INFO  : Successfully done setting SDK workspace  
+14:14:18 INFO  : Project 'floorplan_static_wrapper_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.

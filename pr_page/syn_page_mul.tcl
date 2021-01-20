@@ -15,7 +15,7 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY XPM_FIFO} [current_project]
 set logFileId [open ./runLog_zculling_bot.log "w"]
 set start_time [clock seconds]
 set_param general.maxThreads  8 
-synth_design -top leaf -part xczu3eg-sbva484-1-e -mode out_of_context
+synth_design -top leaf -part xczu9eg-ffvb1156-2-e -mode out_of_context
 write_checkpoint -force page_mul_netlist.dcp
 set end_time [clock seconds]
 set total_seconds [expr $end_time - $start_time]
