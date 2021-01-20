@@ -1,29 +1,6 @@
-14:15:07 **** Auto Build of configuration Debug for project pr_flow ****
+14:52:20 **** Incremental Build of configuration Debug for project pr_flow ****
 make all 
-Building file: ../src/host.cc
-Invoking: ARM v8 g++ compiler
-aarch64-none-elf-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/host.o" -I../../pr_flow_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/host.d" -MT"src/host.o" -o "src/host.o" "../src/host.cc"
-In file included from ../src/host.cc:13:0:
-../src/typedefs.h:37:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
- #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
-  ^~~~~~~
-../src/host.cc: In function 'int main()':
-../src/host.cc:21:22: warning: unused variable 'data2' [-Wunused-variable]
-  unsigned int data1, data2;
-                      ^~~~~
-Finished building: ../src/host.cc
- 
-Building target: pr_flow.elf
-Invoking: ARM v8 g++ linker
-aarch64-none-elf-g++ -Wl,-T -Wl,../src/lscript.ld -L../../pr_flow_bsp/psu_cortexa53_0/lib -o "pr_flow.elf"  ./src/config.o ./src/host.o ./src/stream.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-Finished building target: pr_flow.elf
- 
-Invoking: ARM v8 Print Size
-aarch64-none-elf-size pr_flow.elf  |tee "pr_flow.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  79632	   4608	  20784	 105024	  19a40	pr_flow.elf
-Finished building: pr_flow.elf.size
- 
+make: Nothing to be done for 'all'.
 
-14:15:07 Build Finished (took 564ms)
+14:52:20 Build Finished (took 473ms)
 

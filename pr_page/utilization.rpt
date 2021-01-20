@@ -1,0 +1,159 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Jan 20 14:45:43 2021
+| Host         : ylxiao-OptiPlex-7050 running 64-bit Ubuntu 18.04.2 LTS
+| Command      : report_utilization -hierarchical
+| Design       : leaf
+| Device       : xczu9egffvb1156-2
+| Design State : Synthesized
+------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------------------------------------------+------------------------------------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+|                        Instance                        |                  Module                  | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | URAM | DSP48 Blocks |
++--------------------------------------------------------+------------------------------------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+| leaf                                                   |                                    (top) |       3048 |       2936 |     112 |    0 | 2354 |     68 |      3 |    0 |            0 |
+|   leaf_interface_inst                                  |                           leaf_interface |        683 |        651 |      32 |    0 |  952 |      4 |      3 |    0 |            0 |
+|     ConCtrl                                            |                          Config_Controls |          5 |          5 |       0 |    0 |   43 |      0 |      0 |    0 |            0 |
+|     ExCtrl                                             |                          Extract_Control |         95 |         95 |       0 |    0 |   77 |      0 |      0 |    0 |            0 |
+|     sfc                                                |                      Stream_Flow_Control |        583 |        551 |      32 |    0 |  832 |      4 |      3 |    0 |            0 |
+|       (sfc)                                            |                      Stream_Flow_Control |         15 |         15 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|       ConCtrl                                          |                            converge_ctrl |        185 |        153 |      32 |    0 |  219 |      0 |      0 |    0 |            0 |
+|         (ConCtrl)                                      |                            converge_ctrl |        105 |        105 |       0 |    0 |  121 |      0 |      0 |    0 |            0 |
+|         rise_detect_u                                  |                              rise_detect |          7 |          7 |       0 |    0 |    6 |      0 |      0 |    0 |            0 |
+|         xpm_fifo_sync_inst                             |                            xpm_fifo_sync |         73 |         41 |      32 |    0 |   92 |      0 |      0 |    0 |            0 |
+|           (xpm_fifo_sync_inst)                         |                            xpm_fifo_sync |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|           xpm_fifo_base_inst                           |                            xpm_fifo_base |         73 |         41 |      32 |    0 |   92 |      0 |      0 |    0 |            0 |
+|             (xpm_fifo_base_inst)                       |                            xpm_fifo_base |          2 |          2 |       0 |    0 |   19 |      0 |      0 |    0 |            0 |
+|             gen_sdpram.xpm_memory_base_inst            |                          xpm_memory_base |         32 |          0 |      32 |    0 |   49 |      0 |      0 |    0 |            0 |
+|             rdp_inst                                   |                      xpm_counter_updn_22 |         16 |         16 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|             rdpp1_inst                                 |      xpm_counter_updn__parameterized0_23 |          3 |          3 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|             rst_d1_inst                                |                      xpm_fifo_reg_bit_24 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|             wrp_inst                                   |                      xpm_counter_updn_25 |          7 |          7 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|             wrpp1_inst                                 |      xpm_counter_updn__parameterized0_26 |          5 |          5 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|             xpm_fifo_rst_inst                          |                             xpm_fifo_rst |          6 |          6 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|       ipc                                              |                       Input_Port_Cluster |        232 |        232 |       0 |    0 |  390 |      4 |      2 |    0 |            0 |
+|         input_port_inst[0].IPort                       |                               Input_Port |        116 |        116 |       0 |    0 |  195 |      2 |      1 |    0 |            0 |
+|           (input_port_inst[0].IPort)                   |                               Input_Port |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|           data_converter_inst                          |                data_converter__xdcDup__1 |         78 |         78 |       0 |    0 |  134 |      0 |      1 |    0 |            0 |
+|             (data_converter_inst)                      |                data_converter__xdcDup__1 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|             xpm_fifo_async2user                        |                xpm_fifo_async__xdcDup__1 |         76 |         76 |       0 |    0 |  133 |      0 |      1 |    0 |            0 |
+|               (xpm_fifo_async2user)                    |                xpm_fifo_async__xdcDup__1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|               gnuram_async_fifo.xpm_fifo_base_inst     | xpm_fifo_base__parameterized0__xdcDup__1 |         76 |         76 |       0 |    0 |  133 |      0 |      1 |    0 |            0 |
+|                 (gnuram_async_fifo.xpm_fifo_base_inst) | xpm_fifo_base__parameterized0__xdcDup__1 |          2 |          2 |       0 |    0 |   21 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rd_pntr_cdc_dc_inst       |          xpm_cdc_gray__parameterized0__5 |          6 |          6 |       0 |    0 |   15 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rd_pntr_cdc_inst          |                          xpm_cdc_gray__5 |          5 |          5 |       0 |    0 |   12 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rpw_gray_reg              |                      xpm_fifo_reg_vec_12 |          6 |          6 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rpw_gray_reg_dc           |      xpm_fifo_reg_vec__parameterized0_13 |          3 |          3 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wpr_gray_reg              |                      xpm_fifo_reg_vec_14 |          5 |          5 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wpr_gray_reg_dc           |      xpm_fifo_reg_vec__parameterized0_15 |          1 |          1 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wr_pntr_cdc_dc_inst       |          xpm_cdc_gray__parameterized0__4 |          6 |          6 |       0 |    0 |   15 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wr_pntr_cdc_inst          |                          xpm_cdc_gray__4 |          5 |          5 |       0 |    0 |   12 |      0 |      0 |    0 |            0 |
+|                 gen_sdpram.xpm_memory_base_inst        |       xpm_memory_base__parameterized1__2 |          1 |          1 |       0 |    0 |    0 |      0 |      1 |    0 |            0 |
+|                 rdp_inst                               |                      xpm_counter_updn_16 |          8 |          8 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 rdpp1_inst                             |      xpm_counter_updn__parameterized0_17 |          3 |          3 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 rst_d1_inst                            |                      xpm_fifo_reg_bit_18 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|                 wrp_inst                               |                      xpm_counter_updn_19 |          4 |          4 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 wrpp1_inst                             |      xpm_counter_updn__parameterized0_20 |          4 |          4 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 wrpp2_inst                             |      xpm_counter_updn__parameterized1_21 |          3 |          3 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 xpm_fifo_rst_inst                      |  xpm_fifo_rst__parameterized0__xdcDup__1 |         12 |         12 |       0 |    0 |   17 |      0 |      0 |    0 |            0 |
+|                   (xpm_fifo_rst_inst)                  |  xpm_fifo_rst__parameterized0__xdcDup__1 |         12 |         12 |       0 |    0 |   13 |      0 |      0 |    0 |            0 |
+|                   gen_rst_ic.rrst_wr_inst              |                      xpm_cdc_sync_rst__7 |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|                   gen_rst_ic.wrst_rd_inst              |                      xpm_cdc_sync_rst__6 |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|           rbi                                          |                             read_b_in_11 |         33 |         33 |       0 |    0 |   20 |      0 |      0 |    0 |            0 |
+|           wbi                                          |                               write_b_in |          1 |          1 |       0 |    0 |   41 |      0 |      0 |    0 |            0 |
+|           xpm_memory_tdpram_inst_0                     |                     xpm_memory_tdpram__1 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|             (xpm_memory_tdpram_inst_0)                 |                     xpm_memory_tdpram__1 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|             xpm_memory_base_inst                       |       xpm_memory_base__parameterized0__1 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|           xpm_memory_tdpram_inst_1                     |                     xpm_memory_tdpram__2 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|             (xpm_memory_tdpram_inst_1)                 |                     xpm_memory_tdpram__2 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|             xpm_memory_base_inst                       |       xpm_memory_base__parameterized0__2 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|         input_port_inst[1].IPort                       |               Input_Port__parameterized0 |        116 |        116 |       0 |    0 |  195 |      2 |      1 |    0 |            0 |
+|           (input_port_inst[1].IPort)                   |               Input_Port__parameterized0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|           data_converter_inst                          |                           data_converter |         78 |         78 |       0 |    0 |  134 |      0 |      1 |    0 |            0 |
+|             (data_converter_inst)                      |                           data_converter |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|             xpm_fifo_async2user                        |                           xpm_fifo_async |         76 |         76 |       0 |    0 |  133 |      0 |      1 |    0 |            0 |
+|               (xpm_fifo_async2user)                    |                           xpm_fifo_async |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|               gnuram_async_fifo.xpm_fifo_base_inst     |            xpm_fifo_base__parameterized0 |         76 |         76 |       0 |    0 |  133 |      0 |      1 |    0 |            0 |
+|                 (gnuram_async_fifo.xpm_fifo_base_inst) |            xpm_fifo_base__parameterized0 |          2 |          2 |       0 |    0 |   21 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rd_pntr_cdc_dc_inst       |             xpm_cdc_gray__parameterized0 |          6 |          6 |       0 |    0 |   15 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rd_pntr_cdc_inst          |                             xpm_cdc_gray |          5 |          5 |       0 |    0 |   12 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rpw_gray_reg              |                         xpm_fifo_reg_vec |          6 |          6 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.rpw_gray_reg_dc           |         xpm_fifo_reg_vec__parameterized0 |          3 |          3 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wpr_gray_reg              |                       xpm_fifo_reg_vec_6 |          5 |          5 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wpr_gray_reg_dc           |       xpm_fifo_reg_vec__parameterized0_7 |          1 |          1 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wr_pntr_cdc_dc_inst       |          xpm_cdc_gray__parameterized0__6 |          6 |          6 |       0 |    0 |   15 |      0 |      0 |    0 |            0 |
+|                 gen_cdc_pntr.wr_pntr_cdc_inst          |                          xpm_cdc_gray__6 |          5 |          5 |       0 |    0 |   12 |      0 |      0 |    0 |            0 |
+|                 gen_sdpram.xpm_memory_base_inst        |          xpm_memory_base__parameterized1 |          1 |          1 |       0 |    0 |    0 |      0 |      1 |    0 |            0 |
+|                 rdp_inst                               |                         xpm_counter_updn |          8 |          8 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 rdpp1_inst                             |         xpm_counter_updn__parameterized0 |          3 |          3 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 rst_d1_inst                            |                       xpm_fifo_reg_bit_8 |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|                 wrp_inst                               |                       xpm_counter_updn_9 |          4 |          4 |       0 |    0 |    5 |      0 |      0 |    0 |            0 |
+|                 wrpp1_inst                             |      xpm_counter_updn__parameterized0_10 |          4 |          4 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 wrpp2_inst                             |         xpm_counter_updn__parameterized1 |          3 |          3 |       0 |    0 |    4 |      0 |      0 |    0 |            0 |
+|                 xpm_fifo_rst_inst                      |  xpm_fifo_rst__parameterized0__xdcDup__2 |         12 |         12 |       0 |    0 |   17 |      0 |      0 |    0 |            0 |
+|                   (xpm_fifo_rst_inst)                  |  xpm_fifo_rst__parameterized0__xdcDup__2 |         12 |         12 |       0 |    0 |   13 |      0 |      0 |    0 |            0 |
+|                   gen_rst_ic.rrst_wr_inst              |                      xpm_cdc_sync_rst__9 |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|                   gen_rst_ic.wrst_rd_inst              |                      xpm_cdc_sync_rst__8 |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|           rbi                                          |                                read_b_in |         33 |         33 |       0 |    0 |   20 |      0 |      0 |    0 |            0 |
+|           wbi                                          |               write_b_in__parameterized0 |          1 |          1 |       0 |    0 |   41 |      0 |      0 |    0 |            0 |
+|           xpm_memory_tdpram_inst_0                     |                     xpm_memory_tdpram__3 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|             (xpm_memory_tdpram_inst_0)                 |                     xpm_memory_tdpram__3 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|             xpm_memory_base_inst                       |       xpm_memory_base__parameterized0__3 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|           xpm_memory_tdpram_inst_1                     |                        xpm_memory_tdpram |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|             (xpm_memory_tdpram_inst_1)                 |                        xpm_memory_tdpram |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|             xpm_memory_base_inst                       |          xpm_memory_base__parameterized0 |          2 |          2 |       0 |    0 |    0 |      1 |      0 |    0 |            0 |
+|       opc                                              |                      Output_Port_Cluster |        151 |        151 |       0 |    0 |  223 |      0 |      1 |    0 |            0 |
+|         output_port_cluster[0].OPort                   |                              Output_Port |        151 |        151 |       0 |    0 |  223 |      0 |      1 |    0 |            0 |
+|           (output_port_cluster[0].OPort)               |                              Output_Port |         18 |         18 |       0 |    0 |   15 |      0 |      0 |    0 |            0 |
+|           xpm_fifo_async_inst                          |           xpm_fifo_async__parameterized0 |        133 |        133 |       0 |    0 |  208 |      0 |      1 |    0 |            0 |
+|             (xpm_fifo_async_inst)                      |           xpm_fifo_async__parameterized0 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|             gnuram_async_fifo.xpm_fifo_base_inst       |            xpm_fifo_base__parameterized1 |        133 |        133 |       0 |    0 |  208 |      0 |      1 |    0 |            0 |
+|               (gnuram_async_fifo.xpm_fifo_base_inst)   |            xpm_fifo_base__parameterized1 |          4 |          4 |       0 |    0 |   33 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.rd_pntr_cdc_dc_inst         |             xpm_cdc_gray__parameterized2 |         11 |         11 |       0 |    0 |   24 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.rd_pntr_cdc_inst            |             xpm_cdc_gray__parameterized1 |          9 |          9 |       0 |    0 |   21 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.rpw_gray_reg                |         xpm_fifo_reg_vec__parameterized1 |          6 |          6 |       0 |    0 |    7 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.rpw_gray_reg_dc             |         xpm_fifo_reg_vec__parameterized2 |          0 |          0 |       0 |    0 |    8 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.wpr_gray_reg                |       xpm_fifo_reg_vec__parameterized1_2 |          1 |          1 |       0 |    0 |    7 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.wpr_gray_reg_dc             |       xpm_fifo_reg_vec__parameterized2_3 |          8 |          8 |       0 |    0 |    8 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.wr_pntr_cdc_dc_inst         |          xpm_cdc_gray__parameterized2__2 |         11 |         11 |       0 |    0 |   24 |      0 |      0 |    0 |            0 |
+|               gen_cdc_pntr.wr_pntr_cdc_inst            |          xpm_cdc_gray__parameterized1__2 |          9 |          9 |       0 |    0 |   21 |      0 |      0 |    0 |            0 |
+|               gen_sdpram.xpm_memory_base_inst          |          xpm_memory_base__parameterized2 |          1 |          1 |       0 |    0 |    0 |      0 |      1 |    0 |            0 |
+|               rdp_inst                                 |         xpm_counter_updn__parameterized2 |         16 |         16 |       0 |    0 |    8 |      0 |      0 |    0 |            0 |
+|               rdpp1_inst                               |         xpm_counter_updn__parameterized3 |          8 |          8 |       0 |    0 |    7 |      0 |      0 |    0 |            0 |
+|               rst_d1_inst                              |                         xpm_fifo_reg_bit |          2 |          2 |       0 |    0 |    1 |      0 |      0 |    0 |            0 |
+|               wrp_inst                                 |       xpm_counter_updn__parameterized2_4 |         16 |         16 |       0 |    0 |    8 |      0 |      0 |    0 |            0 |
+|               wrpp1_inst                               |       xpm_counter_updn__parameterized3_5 |         13 |         13 |       0 |    0 |    7 |      0 |      0 |    0 |            0 |
+|               wrpp2_inst                               |         xpm_counter_updn__parameterized4 |          6 |          6 |       0 |    0 |    7 |      0 |      0 |    0 |            0 |
+|               xpm_fifo_rst_inst                        |             xpm_fifo_rst__parameterized0 |         13 |         13 |       0 |    0 |   17 |      0 |      0 |    0 |            0 |
+|                 (xpm_fifo_rst_inst)                    |             xpm_fifo_rst__parameterized0 |         13 |         13 |       0 |    0 |   13 |      0 |      0 |    0 |            0 |
+|                 gen_rst_ic.rrst_wr_inst                |                         xpm_cdc_sync_rst |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|                 gen_rst_ic.wrst_rd_inst                |                     xpm_cdc_sync_rst__10 |          0 |          0 |       0 |    0 |    2 |      0 |      0 |    0 |            0 |
+|   picorv32_wrapper_inst                                |                         picorv32_wrapper |       2365 |       2285 |      80 |    0 | 1402 |     64 |      0 |    0 |            0 |
+|     (picorv32_wrapper_inst)                            |                         picorv32_wrapper |         12 |         12 |       0 |    0 |    0 |      0 |      0 |    0 |            0 |
+|     picorv_mem_inst                                    |                               picorv_mem |        100 |        100 |       0 |    0 |   64 |     64 |      0 |    0 |            0 |
+|       (picorv_mem_inst)                                |                               picorv_mem |         65 |         65 |       0 |    0 |   54 |      0 |      0 |    0 |            0 |
+|       i1                                               |              rise_detect__parameterized0 |          1 |          1 |       0 |    0 |    3 |      0 |      0 |    0 |            0 |
+|       ram_inst_0                                       |                                     ram0 |          5 |          5 |       0 |    0 |    0 |     16 |      0 |    0 |            0 |
+|       ram_inst_1                                       |                     ram0__parameterized0 |         17 |         17 |       0 |    0 |    0 |     16 |      0 |    0 |            0 |
+|       ram_inst_2                                       |                     ram0__parameterized1 |          6 |          6 |       0 |    0 |    1 |     16 |      0 |    0 |            0 |
+|       ram_inst_3                                       |                     ram0__parameterized2 |          4 |          4 |       0 |    0 |    0 |     16 |      0 |    0 |            0 |
+|       rise1                                            |            rise_detect__parameterized0_0 |          1 |          1 |       0 |    0 |    3 |      0 |      0 |    0 |            0 |
+|       rise2                                            |            rise_detect__parameterized0_1 |          1 |          1 |       0 |    0 |    3 |      0 |      0 |    0 |            0 |
+|     port1                                              |                           riscv2consumer |          1 |          1 |       0 |    0 |   33 |      0 |      0 |    0 |            0 |
+|     uut                                                |                                 picorv32 |       2252 |       2172 |      80 |    0 | 1305 |      0 |      0 |    0 |            0 |
+|       (uut)                                            |                                 picorv32 |       1599 |       1519 |      80 |    0 |  850 |      0 |      0 |    0 |            0 |
+|       pcpi_div                                         |                        picorv32_pcpi_div |        413 |        413 |       0 |    0 |  200 |      0 |      0 |    0 |            0 |
+|       pcpi_mul                                         |                        picorv32_pcpi_mul |        240 |        240 |       0 |    0 |  255 |      0 |      0 |    0 |            0 |
++--------------------------------------------------------+------------------------------------------+------------+------------+---------+------+------+--------+--------+------+--------------+
+
+

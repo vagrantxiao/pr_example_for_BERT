@@ -6,7 +6,8 @@ endif
 VIVADO_PATH=$(XILINX_VIVADO)/settings64.sh
 
 all:
-	echo "Hello"
+	echo "make add: risc-v with addition functionality"
+	echo "make mul: risc-v with multiplication functionality"
 
 add: pr_page/add.bit 
 	cd pr_page && ./qsub_download_add.sh $(VIVADO_PATH)
@@ -18,12 +19,14 @@ pr_page/add.bit: pr_page/page_add_netlist.dcp
 	cd pr_page && ./qsub_impl_add.sh $(VIVADO_PATH)
 
 pr_page/page_add_netlist.dcp:
+	cp ./pr_page/riscv_add_dat/* ./pr_page
 	cd pr_page && ./qsub_syn_add.sh $(VIVADO_PATH)
 
 pr_page/mul.bit: pr_page/page_mul_netlist.dcp
 	cd pr_page && ./qsub_impl_mul.sh $(VIVADO_PATH)
 
 pr_page/page_mul_netlist.dcp:
+	cp ./pr_page/riscv_mul_dat/* ./pr_page
 	cd pr_page && ./qsub_syn_mul.sh $(VIVADO_PATH)
 
 

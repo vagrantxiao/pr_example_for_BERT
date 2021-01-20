@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jan 20 14:53:40 2021
+# Process ID: 7703
+# Current directory: /home/ylxiao/ws_183/BERT/pr_example_for_BERT/pr_page
+# Command line: vivado -mode batch -source download_add.tcl
+# Log file: /home/ylxiao/ws_183/BERT/pr_example_for_BERT/pr_page/vivado.log
+# Journal file: /home/ylxiao/ws_183/BERT/pr_example_for_BERT/pr_page/vivado.jou
+#-----------------------------------------------------------
+source download_add.tcl
+# open_hw
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A5EE19
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

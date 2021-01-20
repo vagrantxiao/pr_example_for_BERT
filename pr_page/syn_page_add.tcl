@@ -1,4 +1,3 @@
-add_files -norecurse ./riscv_add_dat/picorv_mem.v
 
 set dir "./src/"
 set contents [glob -nocomplain -directory $dir *]

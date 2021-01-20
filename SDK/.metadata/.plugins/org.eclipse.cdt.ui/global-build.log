@@ -261,3 +261,9 @@ aarch64-none-elf-size pr_flow.elf  |tee "pr_flow.elf.size"
   79632	   4608	  20784	 105024	  19a40	pr_flow.elf
 Finished building: pr_flow.elf.size
  
+14:30:23 **** Incremental Build of configuration Debug for project pr_flow ****
+make all 
+make: Nothing to be done for 'all'.
+14:52:20 **** Incremental Build of configuration Debug for project pr_flow ****
+make all 
+make: Nothing to be done for 'all'.
